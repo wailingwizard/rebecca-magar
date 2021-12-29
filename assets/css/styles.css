@@ -435,6 +435,9 @@ picture img {
   margin: 0;
   padding: 0;
 }
+figure.portfolio-banner img {
+  border: solid 1px #ededed;
+}
 .noselect {
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -525,6 +528,14 @@ main h2 {
     font-size: 1.5rem;
     line-height: 2rem;
     margin-top: 0;
+}
+h2.portfolio-heading {
+  display: block;
+  width: 0;
+  height: 0;
+  text-indent: -9999px;
+  margin: 0;
+  padding: 0;
 }
 h3 {
     font-size: 1.5rem;
@@ -657,10 +668,19 @@ main p, main button {
   -o-transition: padding 0.2s ease-in-out;
   transition: padding 0.2s ease-in-out;
 }
+.btn.primary.back {
+  background: #181507 url(../images/ui-elements/button-arrow-back.svg) no-repeat;
+  background-position: 0.313rem center;
+  padding: 0.313rem 0.688rem 0.313rem 1.5rem;
+}
 .btn.primary:hover, .btn.primary:active, .btn.primary:focus,
 input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus {
     padding-right: 1.875rem;
     cursor: pointer;
+}
+.btn.primary.back:hover, .btn.primary.back:active, .btn.primary.back:focus {
+    padding-left: 1.875rem;
+    padding-right: 0.688rem;
 }
 .btn.secondary {
   display: inline-block;

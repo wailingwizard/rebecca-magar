@@ -26,7 +26,7 @@
                     <div class="col-sm-6">
                         <h3>Login Failed</h3>
                         <p>Incorrect username or password. Please try again.</p>
-                        <a class="btn primary" href="/portfolio/index.php">Try Again</a>
+                        <a class="btn primary back" href="/portfolio/index.php">Try Again</a>
                     </div>
                     <div class="col-sm-3"></div>
                 </div>

@@ -9,6 +9,7 @@
                         href="https://www.linkedin.com/in/rebeccamagar/" target="_blank">Follow Me on
                         LinkedIn</a></span>
             </p>
+            <p><a href="https://github.com/wailingwizard/rebecca-magar" target="_blank">Explore This Website's Code on GitHub</a></p>
         </div>
     </footer>
 
