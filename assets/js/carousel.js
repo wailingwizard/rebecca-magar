@@ -1,4 +1,4 @@
-// CUSTOM CAROUSEL
+// BEGIN SLIDING
 var slideIndex = 1;
 //var myTimer;
 var slideshowContainer;
@@ -15,6 +15,7 @@ window.addEventListener("load", function () {
 // NEXT AND PREVIOUS CONTROL
 function plusSlides(n) {
     //clearInterval(myTimer);
+    $(".carousel-container video").trigger("pause");
     if (n < 0) {
         showSlides(slideIndex -= 1);
     } else {
@@ -32,13 +33,18 @@ function currentSlide(n) {
     //clearInterval(myTimer);
     //myTimer = setInterval(function () { plusSlides(n + 1) }, 8000);
     showSlides(slideIndex = n);
+    $(".carousel-container video").trigger("pause");
 }
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("carousel-slide");
     var dots = document.getElementsByClassName("carousel-dot");
-    if (n > slides.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = slides.length }
+    if (n > slides.length) {
+        slideIndex = 1;
+    }
+    if (n < 1) {
+        slideIndex = slides.length;
+    }
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }

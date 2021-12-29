@@ -529,7 +529,6 @@ main h2 {
 h3 {
     font-size: 1.5rem;
     line-height: 2rem;
-    margin-top: 0;
 }
 figcaption {
   font-family: 'Work Sans', Helvetica, Arial, sans-serif;
@@ -553,8 +552,10 @@ figcaption {
 h4 {
     font-size: 1.125rem;
     line-height: 1.375rem;
-    margin-top: 0;
     font-weight: 600;
+}
+.heading-space {
+  margin-top: 2.5rem;
 }
 .home h4 {
     font-size: 1.5rem;
@@ -861,12 +862,22 @@ box-shadow: 0.313rem 0.313rem 0.25rem -0.188rem rgba(0,0,0,0.11);
         width: 70%;
     }
 }
+@media screen and (max-width: 20rem) {
+  .logo-main-mobile {
+    max-height: 0.813rem;
+  }
+}
 @media screen and (max-width: 18.75rem) {
     .logo-main-mobile {
         max-height: 0.813rem;
         left: 0.5rem;
-        width: 75%;
+        width: 70%;
     }
+}
+@media screen and (max-width: 12.813rem) {
+  .logo-main-mobile {
+      max-height: 0.625rem;
+  }
 }
 @media screen and (max-width: 12.813rem) {
     .logo-main-mobile {
@@ -996,14 +1007,37 @@ box-shadow: 0.313rem 0.313rem 0.25rem -0.188rem rgba(0,0,0,0.11);
     box-shadow: 0 0 0 0 #fff;
     transition: none;
 }
+@media screen and (max-width: 20rem) {
+  .menu-icon {
+    right: 0.313rem;
+  }
+}
 .logout-link {
   position: fixed;
   z-index: 9999999;
   right: 5.5rem;
-  top: 0.6rem;
+  top: 0.75rem;
 }
-.logout-link a{
+.logout-link a {
   text-decoration: none !important;
+}
+@media screen and (max-width: 400px) {
+  .logout-link span {
+    display: block;
+    width: 0;
+    height: 0;
+    text-indent: -9999px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .logout-link {
+    right: 4rem;
+  }
+}
+@media screen and (max-width: 20rem) {
+  .logout-link {
+    right: 3.25rem;
+  }
 }
 #map {
     width: 100%;
@@ -1159,8 +1193,8 @@ main {
     position: relative;
     width: 100%;
     text-align: center;
-    padding-bottom: 12.5rem;
-    padding-top: 10.25rem;
+    padding-bottom: 4.25rem;
+    padding-top: 7.375rem;
 }
 .portfolio-project main {
   padding-top: 3.125rem;
@@ -2166,6 +2200,9 @@ main {
   opacity: 1.0;
   color: #000;
 }
+.carousel-dots {
+  text-align: center;
+}
 .carousel-dot {
   cursor: pointer;
   height: 0.625rem;
@@ -2182,12 +2219,7 @@ main {
 }
 @media screen and (max-width: 64rem) {
   .carousel-dot {
-    margin: 1rem 0.5rem;
-  }
-}
-@media screen and (max-width: 48rem) {
-  .carousel-dot {
-    margin: 1rem 1rem;
+    margin: 1rem 0.5rem 0 0.5rem;
   }
 }
 
