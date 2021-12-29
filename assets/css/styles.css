@@ -2258,6 +2258,7 @@ main {
   left: 0; 
   z-index: 1000; 
   -webkit-filter: none !important;
+  filter: none !important;
   background: rgb(0, 0, 0); /* IE Fallback (Solid Colour) */
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIElEQVQ4T2NkYGDYDMRkA8ZRAxhGw4BhNAyA+WAYpAMAIFgLQfO9BoEAAAAASUVORK5CYII=);
   background: rgba(0, 0, 0, 0.7); 
