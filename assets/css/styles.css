@@ -1021,7 +1021,7 @@ box-shadow: 0.313rem 0.313rem 0.25rem -0.188rem rgba(0,0,0,0.11);
 .logout-link a {
   text-decoration: none !important;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 25rem) {
   .logout-link span {
     display: block;
     width: 0;
@@ -1029,7 +1029,7 @@ box-shadow: 0.313rem 0.313rem 0.25rem -0.188rem rgba(0,0,0,0.11);
     text-indent: -9999px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 25rem) {
   .logout-link {
     right: 4rem;
   }
@@ -2169,12 +2169,11 @@ main {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: auto;
-  margin-top: -4rem;
   color: #000;
   opacity: 0;
-  padding: 16px;
+  padding: 1rem;
   font-weight: bold;
   font-size: 2rem;
   transition: .6s ease;
