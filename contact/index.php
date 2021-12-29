@@ -72,7 +72,6 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-element">
-                                        
                                         <input type="text" id="captcha" name="captcha" placeholder="Enter captcha code" title="Please enter the captcha code!" required>
                                         <img src="captcha.php" width="150" height="50" alt="CAPTCHA">
                                     </div>
@@ -97,7 +96,7 @@
         </section>
     </main>
 
-    <script src="/assets/js/contact-form.js"></script>
+    <script src="/assets/js/contact-form.min.js"></script>
     <script>
         new ContactForm({
             container: document.querySelector(".contact-form"),

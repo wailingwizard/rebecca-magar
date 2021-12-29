@@ -38,7 +38,7 @@
                             <li>Collaborated with the globalHMA team to implement Enhanced E-commerce tracking, rich snippets, and SEO improvements on a large e-commerce site which significantly improved search engine visibility and traffic for the client.</li>
                         </ul>
                        <h4 class="heading-space">SG, LLC | Web Designer and Developer (Self-Employed)</h4>
-                        <h5>Dec. 2011 - Nov. 2012 | York, PA</h5>
+                        <h5>Dec. 2011 - Nov. 2018 | York, PA</h5>
                         <ul>
                             <li>Designed and constructed a large WordPress multisite network for a community management company in Florida, allowing the company to quickly and affordably generate additional sites as new community development districts were established.</li>
                             <li>Hosted, installed, and set up WordPress sites for small business and non-profit clients to promote their businesses and provide ongoing and affordable support for their sites.</li>

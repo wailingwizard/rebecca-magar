@@ -657,10 +657,35 @@ main p, main button {
   -o-transition: padding 0.2s ease-in-out;
   transition: padding 0.2s ease-in-out;
 }
-
 .btn.primary:hover, .btn.primary:active, .btn.primary:focus,
 input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus {
     padding-right: 1.875rem;
+    cursor: pointer;
+}
+.btn.secondary {
+  display: inline-block;
+  color: #181507;
+  margin-bottom: 1.5rem;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #181507;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+  padding: 0 1px 2px 0;
+  background-position: right center;
+  background-size: 0.75rem;
+  -webkit-transition: padding 0.2s ease-in-out;
+  -moz-transition: padding 0.2s ease-in-out;
+  -o-transition: padding 0.2s ease-in-out;
+  transition: padding 0.2s ease-in-out;
+}
+.btn.secondary:hover, .btn.secondary:active, .btn.secondary:focus,
+input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus {
+    opacity: 0.8;
     cursor: pointer;
 }
 input[type="submit"] {
@@ -1031,12 +1056,12 @@ box-shadow: 0.313rem 0.313rem 0.25rem -0.188rem rgba(0,0,0,0.11);
 }
 @media screen and (max-width: 25rem) {
   .logout-link {
-    right: 4rem;
+    right: 5rem;
   }
 }
 @media screen and (max-width: 20rem) {
   .logout-link {
-    right: 3.25rem;
+    right: 4.6rem;
   }
 }
 #map {
@@ -1197,7 +1222,7 @@ main {
     padding-top: 7.375rem;
 }
 .portfolio-project main {
-  padding-top: 3.125rem;
+  padding-top: 5.875rem;
 }
 .home main {
   padding-top: 0;
@@ -1211,14 +1236,6 @@ main {
     padding-left: 1.5rem;
     text-align: left;
     max-width: 61rem;
-  }
-  .container-fluid-hero {
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    text-align: left;
-    max-width: 75rem;
   }
   .row, ul.sitemap-links {
     box-sizing: border-box;
@@ -2008,6 +2025,12 @@ main {
       order: 1;
     }
   }
+  .nopad {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+  }
 
   /* -------------------- CONTACT FORM STYLES ---------------------------*/
 .contact-form {
@@ -2199,6 +2222,12 @@ main {
   opacity: 1.0;
   color: #000;
 }
+@media screen and (max-width: 28.75rem) {
+  .prev,
+  .next {
+    top: 20%;
+  }
+}
 .carousel-dots {
   text-align: center;
 }
@@ -2220,6 +2249,165 @@ main {
   .carousel-dot {
     margin: 1rem 0.5rem 0 0.5rem;
   }
+}
+.rebox { 
+  position: fixed; 
+  width: 100%; 
+  height: 100%; 
+  top: 0; 
+  left: 0; 
+  z-index: 1000; 
+  -webkit-filter: none !important;
+  background: rgb(0, 0, 0); /* IE Fallback (Solid Colour) */
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIElEQVQ4T2NkYGDYDMRkA8ZRAxhGw4BhNAyA+WAYpAMAIFgLQfO9BoEAAAAASUVORK5CYII=);
+  background: rgba(0, 0, 0, 0.7); 
+}
+.rebox *{ 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  -ms-box-sizing: border-box; 
+  -o-box-sizing: border-box; 
+  box-sizing: border-box; 
+  padding: 0; 
+  margin: 0; 
+}
+.rebox-contents { 
+  position: absolute; 
+  top: 5%; 
+  left: 5%; 
+  text-align: center; 
+  width: 90%; 
+  height: 90%; 
+}
+.rebox-contents .rebox-content { 
+  cursor: pointer; 
+  border: 5px solid #fff; 
+  background-color: #fff; 
+  box-shadow: 0 0 20px #000; 
+  border-radius: 1px; 
+  max-width: 100%; 
+  max-height: 80%; 
+  margin: auto; 
+  position: absolute; 
+  bottom: 0; 
+  top: 0; 
+  left: 0; 
+  right: 0;  
+}
+.rebox-loading { 
+  width: 1.938rem;
+  height: 1.938rem;
+  margin: -1rem 0 0 -1rem;
+  position: absolute; 
+  top: 48%; 
+  left: 50%; 
+}
+.rebox-caption { 
+  display: none; 
+  position: absolute; 
+  left: 0; 
+  bottom: 0; 
+  width: 100%; 
+  text-align: center; 
+  z-index: 1000; 
+  background: #181507; 
+}
+.rebox-caption p { 
+  margin: 0 auto; 
+  max-width: 70%;
+  display: inline-block; 
+  *display: inline; 
+  *zoom: 1; 
+  padding: 0.625rem; 
+  color: #fff; 
+  font-size: 1em; 
+  line-height: 1.5em; 
+}
+.rebox-button { 
+  position: absolute; 
+  z-index: 9999; 
+  min-width: 2.5rem; 
+  height:  2.5rem; 
+  line-height:  2.5rem; 
+  background: #181507;
+  text-decoration: none; 
+  font-size: 1.5rem; 
+  color: #fff; 
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s; 
+  -moz-transition: all 0.3s; 
+  -ms-transition: all 0.3s; 
+  transition: all 0.3s; 
+}
+.rebox-button:hover,
+.rebox-button:focus { 
+  opacity: 1.0; 
+  -webkit-transform: scale(1.1); 
+  -moz-transform: scale(1.1); 
+  -ms-transform: scale(1.1); 
+  transform: scale(1.1); 
+}
+.rebox-button:hover a,
+.rebox-button:focus a,
+.rebox-button a:hover,
+.rebox-button a:focus { 
+  opacity: 1.0 !important;
+  color: #fff;
+}
+.rebox-close { 
+  right: 1rem; 
+  top: 0.5rem; 
+}
+@media screen and (max-width: 20rem) {
+  .rebox-close { 
+    right: 0.313rem;
+    top: 0.313rem;
+  }
+}
+.rebox-next { 
+  right: 0.625rem;
+  top: 48%;
+}
+.rebox-prev { 
+  left: 0.625rem;
+  top: 48%;
+}
+.rebox-loading { 
+  left: 50%;
+  top: 48%;
+  -webkit-animation-name: spin; 
+  -webkit-animation-duration: 2000ms; 
+  -webkit-animation-iteration-count: infinite; 
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin; 
+  -moz-animation-duration: 2000ms; 
+  -moz-animation-iteration-count: infinite; 
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin; 
+  -ms-animation-duration: 2000ms; 
+  -ms-animation-iteration-count: infinite; 
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+  from { -ms-transform: rotate(0deg); }
+  to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from { transform:rotate(0deg); }
+  to { transform:rotate(360deg); }
 }
 
 /* -------- FOOTER -------- */
