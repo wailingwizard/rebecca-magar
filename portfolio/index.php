@@ -20,6 +20,17 @@
     <main>
         <section class="main-content">
             <div class="container-fluid">
+
+                <!-- Sample Project -->
+                <div class="row portfolio">
+                    <div class="col-md-12">
+                        <figure class="portfolio-banner">    
+                            <a href="/sample-project/"><img src="/assets/images/sample-project/partners-and-harrison-banner.webp" srcset="/assets/images/sample-project/partners-and-harrison-banner_400.webp 400w, /assets/images/sample-project/partners-and-harrison-banner_800.webp 800w, /assets/images/sample-project/partners-and-harrison-banner.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Web Presence"></a>
+                            <figcaption><a href="/sample-project/">View a Sample of My Work</a></figcaption>
+                        </figure>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-6">

@@ -30,7 +30,7 @@
                             <li><h4><a href="/about/">About</a></h4></li>
                             <li><h4><a href="/portfolio/">Portfolio</a></h4></li>
                             <li><h4><a href="/contact/">Contact</a></h4></li>
-                            <li><h4><a href="/assets/documents/rebecca-magar-resume.pdf" target="_blank">Resume</a></h4></li>
+                            <li><h4><a href="/sitemap/" target="_blank">Sitemap</a></h4></li>
                             <li><h4><a href="/privacy-policy/">Privacy Policy</a></h4></li>
                         </ul>
                     </div>

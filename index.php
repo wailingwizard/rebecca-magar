@@ -20,12 +20,12 @@
     <section class="hero js-hero">
 
         <hgroup class="hero-titles js-hero-titles">
-            <h2 class="hero-title hero-title-blue js-hero-title js-hero-title-blue">Web<br />
+            <h2 class="hero-title hero-title-blue js-hero-title js-hero-title-blue">Design<br />
                 UI/UX<br />
                 Dev</h2>
-            <h2 class="hero-title hero-title-red js-hero-title js-hero-title-red">Veni<br />
-                Vidi<br />
-                Vici</h2>
+            <h2 class="hero-title hero-title-red js-hero-title js-hero-title-red">Email<br />
+                Apps<br />
+                Web</h2>
         </hgroup>
 
         <svg class="hero-shape js-hero-shape hero-shape-red hero-shape-landscape js-hero-shape-red-landscape"
@@ -62,33 +62,29 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-8">
-                        <h3>About Me</h3>
-                        <p><img src="/assets/images/rebecca-magar-portrait.webp" alt="Rebecca Magar" class="in-line-photo" />From graphic design to front-end development to video editing and marketing automation – I've worn many hats in my career. My favorite quote says, "I am always doing that which I cannot do, in order that I may learn how to do it."​ I love figuring out how to do things and I'm not afraid to take on new challenges. A willingness to try new things has been paramount to my success working independently and at a small agency where clients regularly introduce new software and systems (and where the ability to be fast, flexible and versatile is key).</p>
-                        <p>I am wildly excited by HTML, CSS, and user interface design and have a passion for working with content management and marketing automation systems. I'm a perfectionist who enjoys organizing information and improving processes and a problem solver who loves reading support documentation and watching tutorials. In my spare time, I <a href="https://culticband.com" target="_blank">play drums in the heavy metal band Cultic</a> and <a href="https://wailingwizard.com" target="_blank">illustrate album covers for bands</a>. I like to use my hobbies as an opportunity to practice and expand on my design, development, and marketing abilities.
+                    <div class="col-sm-9">
+                        <h2>Web/UI Designer &amp; Front-End Developer</h2>
+                        
+                        <p>Hi! My name is Rebecca Magar. I am a web/UI designer and front-end developer with 14+ years of experience designing and building responsive sites, applications, landing pages, and email templates that convert. I am currently employed at a digital marketing agency where I've gained in-depth experience working with a variety of content management and marketing automation systems. I am wildly excited by HTML, CSS, and user interface design, and I thrive on learning new skills. When I'm not working, you'll find me <a href="https://culticband.com" target="_blank">playing drums in the heavy metal band Cultic</a> or <a href="https://wailingwizard.com" target="_blank">peddling my art</a>.
                         </p>
-                        <a class="btn primary" href="/about/">Experience and Skills</a>
+                        <a class="btn primary" href="/about/">Experience &amp; Skills</a>
                     </div>
-                    <div class="col-sm-4">
-                        <h4>Competencies</h4>
-                        <ul>
-                            <li>Front-End Development</li>
-                            <li>Content Management</li>
-                            <li>Web Design</li>
-                            <li>UI Design</li>
-                            <li>Email Marketing</li>
-                            <li>E-commerce</li>
-                            <li>Marketing Automation</li>
-                            <li>SEO/Analytics</li>
-                            <li>Social Media</li>
-                            <li>Graphic Design</li>
-                            <li>Illustration</li>
-                            <li>Video Editing</li>
-                            <li>Photo Editing</li>
-                            <li>Audio Editing</li>
-                        </ul>
+                    <div class="col-sm-3">
+                        <img src="/assets/images/rebecca-magar-portrait.webp" alt="Rebecca Magar" />
                     </div>
                 </div>
+
+                <!-- Sample Project -->
+                <div class="row portfolio" style="padding-top: 82px;">
+                    <div class="col-md-12">
+                        <figure class="portfolio-banner">
+                            <div class="image-overlay"></div>    
+                            <a href="/sample-project/"><img src="/assets/images/sample-project/partners-and-harrison-banner.webp" srcset="/assets/images/sample-project/partners-and-harrison-banner_400.webp 400w, /assets/images/sample-project/partners-and-harrison-banner_800.webp 800w, /assets/images/sample-project/partners-and-harrison-banner.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Web Presence"></a>
+                            <figcaption><a href="/sample-project/">View a Sample of My Work</a></figcaption>
+                        </figure>
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>

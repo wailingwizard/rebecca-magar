@@ -22,69 +22,45 @@
         <section class="main-content">
             <div class="container-fluid">
                 <div class="row">
+                    <div class="col-md-12">
+                     <figure class="image-banner">    
+                            <img src="/assets/images/design-makes-me-happy.webp" srcset="/assets/images/design-makes-me-happy_400.webp 400w,/assets/images/design-makes-me-happy_800.webp 800w,/assets/images/design-makes-me-happy.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Design Makes Me Happy - Graphic by Rebecca Magar" class="border-none">
+                        </figure>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-sm-8">
-                        <h2>About</h2>
-                        <p>Proficient front-end developer and UI designer with 14+ years of experience designing and building responsive sites, applications, landing pages, and email templates that convert. Comprehensive experience in CMS and e-commerce design, HTML and CSS development, and digital marketing techniques. Fast learner with a strong work ethic and an eye for detail.</p>
-                        <div><a class="btn primary" href="/assets/documents/rebecca-magar-resume.pdf" target="_blank">Download Resume (PDF)</a></div>
-                        <h3 class="heading-space">Experience</h3>
-                        <h4>GLOBALHMA | Front-End Developer (Remote)</h4>
-                        <h5>Dec. 2010 - Present | Lancaster, PA</h5>
-                        <ul>
-                            <li>Designed and developed an email popup and welcome series campaign that increased newsletter subscription rates by 6.1% and revenue per email by 19.9% for a large non-profit e-commerce client.</li>
-                            <li>Rebranded digital assets for a transnational resource management company, enabling a quick and seamless merger for the brand.</li>
-                            <li>Participated in the planning and migration of a network of global sites for a large B2B client with our team completing the transition ahead of schedule and significantly below budget.</li>
-                            <li>Audited globalHMA's development team processes, creating a training plan for new hires, developing standard operating procedures, and ensuring best practices for security that resulted in increased productivity and collaboration for our team.</li>
-                            <li>Participated in the planning and implementation of a social media ad campaign that generated $64k in revenue and a 615% ROAS for a large e-commerce client.</li>
-                            <li>Collaborated with the globalHMA team to implement Enhanced E-commerce tracking, rich snippets, and SEO improvements on a large e-commerce site which significantly improved search engine visibility and traffic for the client.</li>
-                        </ul>
-                       <h4 class="heading-space">SG, LLC | Web Designer and Developer (Self-Employed)</h4>
-                        <h5>Dec. 2011 - Nov. 2018 | York, PA</h5>
-                        <ul>
-                            <li>Designed and constructed a large WordPress multisite network for a community management company in Florida, allowing the company to quickly and affordably generate additional sites as new community development districts were established.</li>
-                            <li>Hosted, installed, and set up WordPress sites for small business and non-profit clients to promote their businesses and provide ongoing and affordable support for their sites.</li>
-                            <li>Enabled several small business clients to significantly increase their search rankings by working with clients to claim their Google Business listings and improve website SEO, structure, and content.</li>
-                        </ul>
-
-                        <h4 class="heading-space">JPL | Web Designer (Contract)</h4>
-                        <h5>Dec. 2011 - Nov. 2012 | Harrisburg, PA</h5>
-                        <ul>
-                            <li>Collaborated with the JPL team to design and develop global mobile-friendly sites for Hershey Foods by tailoring sites to meet country-specific goals resulting in a significant reduction in bounce rates.</li>
-                        </ul>
-                        <h4 class="heading-space">IME-TECH | Front-End Developer (Freelance Remote)</h4>
-                        <h5>Sep. 2008 - Oct. 2011 | Valrico, FL</h5>
-                        <ul>
-                            <li>Participated in the development of SharePoint applications and sites that enabled IME-Tech clients to manage internal processes and improve productivity.</li>
-                            <li>Collaborated with the team to design and develop a desktop gadget and intranet for Microsoft Employees and Facilities enabling the company to easily send alerts and information to employees directly through their desktop computers.</li>
-                        </ul>
-
-                        <h4 class="heading-space">RoomMates Decor | Graphic Designer</h4>
-                        <h5>Jun. 2007 – Aug. 2008 | York, PA</h5>
-                        <ul>
-                            <li>Spearheaded the creation of a new line of peel and stick posters resulting in new supply agreements with Blockbuster Video and Hollywood Video.</li>
-                            <li>Created packaging, displays, tradeshow graphics, and collateral to promote the RoomMates brand online, at events, and in retail locations.</li>
-                            <li>Prepared product and packaging for production by creating die cuts, exporting press-ready files, and proofing product samples for accuracy and quality.</li>
-                            <li>Managed licensed artwork to ensure licensing guidelines were met and submitted product samples to licensors for approval.</li>
-                        </ul>
-
-                        <h4 class="heading-space">WITF | Graphic Design Intern</h4>
-                        <h5>Jan. 2006 – Aug. 2006 | Harrisburg, PA</h5>
-                        <ul>
-                            <li>Collaborated with the design team to create page layouts for WITF's bimonthly publication, Central PA Magazine, using Adobe InDesign.</li>
-                            <li>Designed print advertisements to promote Central PA Magazine sponsors.</li>
-                            <li>Designed an identity and illustrations for Central PA Magazine's new Curious Kids section.</li>
-                        </ul>
+                        <h2>About Me</h2>
+                        <p>I kicked off my career with a temporary internship at WITF in Harrisburg, PA, where I designed advertisements and layouts for Central PA Magazine. This position allowed me to gain valuable experience in the field while completing my degree. After graduation, I was hired by RoomMates decor in York, PA to illustrate products and produce packaging and collateral for the RoomMates brand. In my free time, I self-taught HTML and CSS.</p>
+                        My desire to design and build websites led to a position working as a freelance front-end developer for IME-Tech. Here, I worked remotely with a team of developers to wireframe, design, and build custom SharePoint applications and sites for a variety of clients including Bank of America and Microsoft.</p>
+                        <p>When the work at IME-Tech began to dry up in 2010, I branched out and established SG, LLC. During this time I worked for a variety of clients throughout the United States including Century Media Records, Rizzetta & Company, SolarGaines, American Music Theatre, Re/Max, South Country Brewing, globalHMA (my current employer), and many more.</p>
+                        <p>My freelance work spanned a variety of skillsets with my primary focus being on developing custom WordPress themes and setting up WordPress sites. I eventually acquired a dedicated CentOS Linux server where I set up a shared hosting environment for my smaller clients. Here, I've been able to provide ongoing support and maintenance for their sites.</p>
+                        <p>In December of 2011, I took on a temporary contract position with JPL in Harrisburg, PA where I worked closely with a team of developers to design and build mobile-friendly sites, HTML5 video players, and landing pages for The Hershey Company. </p>
+                        <p>Over the years, globalHMA remained a regular client. I continued to take on more duties at the company and ultimately transitioned to a full-time remote position in 2019. Here, I focus on design, development, and marketing for B2B clients in the heavy industry sector.</p>
+                        <p>I wear a lot of hats at my current job. From graphic design to front-end development, to video editing, to marketing automation and IT tasks — I'm quick to jump in wherever I am needed. My coworkers often tell me "you can do anything!" A willingness to try new things has been paramount to my success working independently and at a small agency where clients regularly introduce new software and systems (and where the ability to be fast, flexible, and versatile is key).</p>
+                        <p>I am always looking for opportunities for growth and learning is extremely important to me. I am currently in the process of completing a JavaScript development course through Udemy and hope to eventually master JavaScript libraries like React.js and Angular.js.</p>
                     </div>
                     <div class="col-sm-4">
-                        <h3>Education</h3>
-                        <h4>Bradley Academy for the Visual Arts</h4>
-                        <h5>Associates in Specialized Technology</h5>
-                        <p><strong>MAJOR:</strong> Graphic Design<br>
-                            <strong>CUMULATIVE GPA:</strong> 3.85/4.0<br>
-                            Class of 2007<br>
-                            <strong>HONORS:</strong> Alpha Beta Kappa National Honor Society
-                        </p>
-                        <h3 class="heading-space">Skills</h3>
-                        <h4>Code</h4>
+                        
+                        <h3>Competencies</h3>
+                        <ul class="skills">
+                            <li>Front-End Development</li>
+                            <li>Content Management</li>
+                            <li>Web Design</li>
+                            <li>UI Design</li>
+                            <li>Email Marketing</li>
+                            <li>E-commerce</li>
+                            <li>Marketing Automation</li>
+                            <li>SEO/Analytics</li>
+                            <li>Social Media</li>
+                            <li>Graphic Design</li>
+                            <li>Illustration</li>
+                            <li>Video Editing</li>
+                            <li>Photo Editing</li>
+                            <li>Audio Editing</li>
+                        </ul>
+                        <h3>Skills</h3>
+                        <!--<h4>Code</h4>
                         <ul class="skills">
                             <li>HTML</li>
                             <li>CSS</li>
@@ -139,16 +115,66 @@
                             <li>Slack</li>
                             <li>Trello</li>
                             <li>Hive</li>
-                        </ul>
-                        <h3 class="heading-space">Certifications</h3>
-                        <h5>Certified Hubspot CMS Developer</h5>
-                        <p><strong> ISSUER:</strong> HubSpot Academy<br />
-                        <strong>ISSUED:</strong> Apr. 2019<br />
-                        <strong>EXPIRED:</strong> Apr. 2020</p>
-                        <h5>Microsoft Office Certification</h5>
-                        <p><strong>ISSUER:</strong> HACC<br />
-                        <strong>ISSUED:</strong> Feb. 2008<br />
-                        <strong>EXPIRED:</strong> Feb. 2009</p>
+                        </ul>-->
+
+                        <ul class="accordion">
+                            <li>
+                                <a>Code</a>
+                                <p>HTML<br>
+                                CSS<br>
+                                Flexbox<br>
+                                Bootstrap<br>
+                                Visual Studio Code<br>
+                                PHPStorm<br>
+                                Dreamweaver<br>
+                                GitHub<br>
+                                MAMP Pro<br>
+                                Google Analytics</p>
+                            </li>
+                            <li>
+                                <a>Graphics</a>
+                                <p>XD<br>   
+                                Sketch<br>
+                                Illustrator<br>
+                                InDesign<br>
+                                Photoshop<br>
+                                Premiere Pro<br>
+                                After Effects<br>
+                                Audition<br>
+                                Lightroom<br>
+                                Procreate<br>
+                                Google Web Designer</p>
+                            </li>
+                            <li>
+                                <a>CMS'<span style="text-transform: none;">s</span></a>
+                                <p>WordPress<br>
+                                Jahia<br>
+                                HubSpot<br>
+                                Drupal<br>
+                                Shopify<br>
+                                Square<br>
+                                Magento</p>
+                            </li>
+                            <li>
+                                <a>Marketing</a>
+                                <p>MailChimp<br>
+                                Campaign Monitor<br>
+                                Listrak<br>
+                                Act-On<br>
+                                Marketo<br>
+                                Salesforce<br>
+                                Amazon Seller<br>
+                                Channel Advisor</p>
+                            </li>
+                            <li>
+                                <a>Productivity</a>
+                                <p>Office 365<br>
+                                Google Workspace<br>
+                                Slack<br>
+                                Trello<br>
+                                Hive</p>
+                            </li>
+                        </ul> <!-- / accordion -->
                     </div>
                 </div>
             </div>

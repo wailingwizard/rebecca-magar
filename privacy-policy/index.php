@@ -41,7 +41,7 @@
                             <li>Name</li>
                             <li>Contact information including your email address</li>
                         </ul>
-                        <h3>Information you provide to me</h3>
+                        <h4>Information you provide to me</h4>
                         <p>It’s probably no surprise that I collect information that you provide to me. The amount and type of information depends on the context and how I use the information. For example:</p>
                         <ul>
                             <li>Communications with me (Hi there!): You may provide me with information when you communicate directly with me via me contact form, or by contacting me through other means.</li>
@@ -52,7 +52,7 @@
                             <li>Log information: Like most online service providers, I collect information that web browsers, mobile devices, and servers typically make available, such as the browser type, IP address, unique device identifiers, language preference, referring site, the date and time of access, operating system, and mobile network information. I collect log information when you use my website–for example, when you send a message through my contact form or login to my portfolio.</li>
                             <li>Usage information: I collect information about your usage of my services. For example, I collect information about what happens when you use my website (e.g., page views, form submissions, etc.) along with information about your device (e.g., screen size, name of cellular network, and mobile device manufacturer). I use this information to, for example, provide my services to you, as well as get insights on how people use my website so I can make my website better.</li>
                             <li>Location information: I may determine the approximate location of your device from your IP address. I collect and use this information to, for example, calculate how many people visit my website from certain geographic regions.</li>
-                            <li>Information from cookies and other technologies: A cookie is a string of information that a website stores on a visitor’s computer, and that the visitor’s browser provides to the website each time the visitor returns. Pixel tags (also called web beacons) are small blocks of code placed on websites and emails. I use cookies and other technologies like pixel tags to help me identify and track visitors, usage, and access preferences for my website. For more information about my use of cookies and other technologies for tracking, including how you can control the use of cookies, please see my <a href="#cookies">cookie policy</a> below.</li>
+                            <li>Information from cookies and other technologies: A cookie is a string of information that a website stores on a visitor’s computer, and that the visitor’s browser provides to the website each time the visitor returns. Pixel tags (also called web beacons) are small blocks of code placed on websites and emails. I use cookies and other technologies like pixel tags to help me identify and track visitors, usage, and access preferences for my website. For more information about my use of cookies and other technologies for tracking, including how you can control the use of cookies, please see my <a href="#cookies">Cookie Policy</a> below.</li>
                         </ul>
                         <h3 id="howandwhy">How and Why I Use Information</h3>
                         <h4>Purposes for Using Information</h4>
