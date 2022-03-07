@@ -10,7 +10,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Contact Rebecca Magar" />
     <meta property="og:description" content="Connect with Rebecca to request samples of her work, to discuss new opportunities, or just to chat. Fill out the contact form to start a conversation." />
-    <meta property="og:image" content="/assets/images/og-images/rebecca-magar-facebook-og.jpg" />
+    <meta property="og:image" content="/assets/images/og-images/rebecca-magar-og.jpg" />
 </head>
 
 <body class="about">

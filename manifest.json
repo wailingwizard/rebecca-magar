@@ -6,7 +6,7 @@
     "start_url": "./index.php",
     "dir": "ltr",
     "lang": "en-US",
-    "theme_color": "#181507",
+    "theme_color": "#19b7ff",
     "background_color": "#ffffff",
     "display": "fullscreen",
     "orientation": "any",

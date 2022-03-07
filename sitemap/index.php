@@ -11,7 +11,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Rebecca Magar - Sitemap" />
     <meta property="og:description" content="Explore the sitemap to view all of the content and links on Rebecca's site." />
-    <meta property="og:image" content="/assets/images/og-images/rebecca-magar-facebook-og.jpg" />
+    <meta property="og:image" content="/assets/images/og-images/rebecca-magar-og.jpg" />
 </head>
 
 <body class="sitemap">
@@ -29,8 +29,9 @@
                             <li><h4><a href="/">Homepage</a></h4></li>
                             <li><h4><a href="/about/">About</a></h4></li>
                             <li><h4><a href="/portfolio/">Portfolio</a></h4></li>
+                            <li><h4><a href="/sample-project/">Sample Project</a></h4></li>
                             <li><h4><a href="/contact/">Contact</a></h4></li>
-                            <li><h4><a href="/sitemap/" target="_blank">Sitemap</a></h4></li>
+                            <li><h4><a href="/sitemap/">Sitemap</a></h4></li>
                             <li><h4><a href="/privacy-policy/">Privacy Policy</a></h4></li>
                         </ul>
                     </div>

@@ -9,9 +9,9 @@
 
     <meta property="og:url" content="https://www.rebeccamagar.com" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Rebecca Magar - Web Designer and Front-End Developer" />
+    <meta property="og:title" content="Rebecca Magar - Web/UI Designer and Front-End Developer" />
     <meta property="og:description" content="Rebecca is a proficient web / UI designer with 14+ years of experience designing and building responsive sites, applications, landing pages, and email templates." />
-    <meta property="og:image" content="/assets/images/og-images/rebecca-magar-facebook-og.jpg" />
+    <meta property="og:image" content="/assets/images/og-images/rebecca-magar-og.jpg" />
 </head>
 
 <body class="home">
@@ -57,32 +57,32 @@
     <main>
         <section class="main-content">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-9">
-                        <h2>Web/UI Designer &amp; Front-End Developer</h2>
+                <div class="row portrait-position">
+                    <div class="col-sm-7">
+                        <h2 class="intro-heading">Web/UI Designer &amp; Front-End Developer</h2>
                         
                         <p>Hi! My name is Rebecca Magar. I am a web/UI designer and front-end developer with 14+ years of experience designing and building responsive sites, applications, landing pages, and email templates that convert. I am currently employed at a digital marketing agency where I've gained in-depth experience working with a variety of content management and marketing automation systems. I am wildly excited by HTML, CSS, and user interface design, and I thrive on learning new skills. When I'm not working, you'll find me <a href="https://culticband.com" target="_blank">playing drums in the heavy metal band Cultic</a> or <a href="https://wailingwizard.com" target="_blank">peddling my art</a>.
                         </p>
                         <a class="btn primary" href="/about/">Experience &amp; Skills</a>
                     </div>
-                    <div class="col-sm-3">
-                        <img src="/assets/images/rebecca-magar-portrait.webp" alt="Rebecca Magar" />
+                    <div class="col-sm-5">
+                        <img src="/assets/images/rebecca-magar-portrait-halftone.webp" alt="Rebecca Magar - UI/Web Designer and Front-End Developer" />
                     </div>
                 </div>
 
                 <!-- Sample Project -->
-                <div class="row portfolio" style="padding-top: 82px;">
+                <div class="row portfolio">
                     <div class="col-md-12">
                         <figure class="portfolio-banner">
-                            <div class="image-overlay"></div>    
-                            <a href="/sample-project/"><img src="/assets/images/sample-project/partners-and-harrison-banner.webp" srcset="/assets/images/sample-project/partners-and-harrison-banner_400.webp 400w, /assets/images/sample-project/partners-and-harrison-banner_800.webp 800w, /assets/images/sample-project/partners-and-harrison-banner.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Web Presence"></a>
-                            <figcaption><a href="/sample-project/">View a Sample of My Work</a></figcaption>
+                            <a href="/sample-project/"><span class="image-overlay"></span><img src="/assets/images/sample-project/partners-and-harrison-banner.webp" srcset="/assets/images/sample-project/partners-and-harrison-banner_400.webp 400w, /assets/images/sample-project/partners-and-harrison-banner_800.webp 800w, /assets/images/sample-project/partners-and-harrison-banner.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Web Presence"></a>
+                            <figcaption><a href="/sample-project/">View a Sample Project</a></figcaption>
                         </figure>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="pad centered">
+                        <a class="btn primary centered" href="/portfolio/">Explore My Work</a>
+                     </div>
                 </div>
 
             </div>

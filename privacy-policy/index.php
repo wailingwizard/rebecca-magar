@@ -11,7 +11,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Rebecca Magar - Privacy Policy" />
     <meta property="og:description" content="This privacy policy describes the way in which Rebecca Magar uses and protects the information that you have provided when visiting her site." />
-    <meta property="og:image" content="/assets/images/og-images/rebecca-magar-facebook-og.jpg" />
+    <meta property="og:image" content="/assets/images/og-images/rebecca-magar-og.jpg" />
 </head>
 
 <body class="privacy-policy">

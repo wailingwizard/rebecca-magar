@@ -435,12 +435,34 @@ picture img {
   margin: 0;
   padding: 0;
 }
+figure.portfolio-banner {
+  position: relative;
+}
+figure.portfolio-banner .image-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background-color: #f41d07;
+  mix-blend-mode: multiply;
+  z-index: 0;
+  transition: all 0.65s ease;
+}
+figure.portfolio-banner:hover .image-overlay {
+  width: 100%;
+  height: 100%;
+}
 figure.portfolio-banner img {
   border: solid 1px #ededed;
 }
 figure.image-banner img {
   margin-bottom: 24px;
   border-bottom: #181507 1px solid;
+}
+figure.portfolio-banner:hover .overlay {
+
 }
 .noselect {
     -webkit-user-select: none;
@@ -555,7 +577,7 @@ figcaption {
   padding: 3px 0 5px 0;
   bottom: 15%;
   line-height: 16px;
-  left: 1.5rem;
+  left: 0;
   overflow: hidden;
 }
 figure:hover figcaption {
@@ -720,8 +742,7 @@ input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:fo
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.btn.secondary:hover, .btn.secondary:active, .btn.secondary:focus,
-input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus {
+.btn.secondary:hover, .btn.secondary:active, .btn.secondary:focus, {
     color: #19b7ff;
     border-color: #19b7ff;
     cursor: pointer;
@@ -988,7 +1009,6 @@ box-shadow: 0.313rem 0.313rem 0.25rem -0.188rem rgba(0,0,0,0.11);
   height: 2rem;
   z-index: 999;
 }
-
 .navbar.navscroll .menu-icon {
   top: 0.5rem;
   right: 1.5rem;
@@ -1140,6 +1160,13 @@ html.firefox-osx .nav-overlay {
 .nav-bg-shape-portrait {
     display: none;
 }
+.centered {
+  text-align: center;
+  margin: 0 auto;
+}
+.pad {
+  margin-top: 48px;
+}
 @media screen and (max-width: 47.938rem) {
   #map {
       margin: 0 auto;
@@ -1226,7 +1253,6 @@ html.firefox-osx .nav-overlay {
 .hero.portrait .hero-shape-portrait {
     display: block;
 }
-
 .hero-titles {
     position: absolute;
     left: 5%;
@@ -1246,7 +1272,6 @@ html.firefox-osx .nav-overlay {
 .hero-title-blue {
     color: #19b7ff;
 }
-
 @media (min-width: 47.938rem) {
     .hero {
         top: 0;
@@ -1269,6 +1294,30 @@ main {
 }
 .home main {
   padding-top: 0;
+}
+.intro-heading {
+  padding-top: 200px;
+}
+.portrait-position {
+  position: relative;
+  bottom: -125px;
+  z-index: 1;
+}
+@media only screen and (max-width: 940px) {
+  .intro-heading {
+    padding-top: 80px;
+  }
+  .portrait-position {
+    bottom: -100px;
+  }
+}
+@media only screen and (max-width: 764px) {
+  .intro-heading {
+    padding-top: 0;
+  }
+  .portrait-position {
+    bottom: 0;
+  }
 }
 
 /* FLEXBOX GRID */
@@ -1300,6 +1349,9 @@ main {
   }
   .row.portfolio {
     padding-bottom: 4.5rem;
+  }
+  .home .row.portfolio {
+    padding-bottom: 0;
   }
   .row.reverse {
     -ms-flex-direction: row-reverse;
@@ -1715,7 +1767,6 @@ main {
   .row.portfolio .col-md-12 {
     position: relative;
   }
-
   @media only screen and (min-width: 62em) {
     .container {
       width: 61rem;
@@ -1755,12 +1806,12 @@ main {
       flex-basis: 8.333%;
       max-width: 8.333%;
     }
-    .col-md-2, .sitemap-links li {
+    .col-md-2 {
       -ms-flex-preferred-size: 16.667%;
       flex-basis: 16.667%;
       max-width: 16.667%;
     }
-    .col-md-3 {
+    .col-md-3, .sitemap-links li {
       -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
       max-width: 25%;
@@ -2223,6 +2274,13 @@ main {
   width: 100%;
   padding: 0 1.5rem;
   text-align: center;
+}
+
+/* -------- LOGIN -------- */
+.login-box {
+  padding: 24px 24px 16px 24px;
+  -webkit-box-shadow: 2px 2px 9px -2px rgba(0,0,0,0.3); 
+  box-shadow: 2px 2px 9px -2px rgba(0,0,0,0.3);
 }
 
 /* -------- PORTFOLIO -------- */

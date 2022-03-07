@@ -11,7 +11,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="About Rebecca Magar's Skills and Experience" />
     <meta property="og:description" content="From graphic design to front-end development to video editing and marketing automation – Rebecca has worn many hats in her career. Learn more about her skills and experience." />
-    <meta property="og:image" content="/assets/images/og-images/rebecca-magar-facebook-og.jpg" />
+    <meta property="og:image" content="/assets/images/og-images/rebecca-magar-og.jpg" />
 </head>
 
 <body class="about">
@@ -31,14 +31,15 @@
                 <div class="row">
                     <div class="col-sm-8">
                         <h2>About Me</h2>
-                        <p>I kicked off my career with a temporary internship at WITF in Harrisburg, PA, where I designed advertisements and layouts for Central PA Magazine. This position allowed me to gain valuable experience in the field while completing my degree. After graduation, I was hired by RoomMates decor in York, PA to illustrate products and produce packaging and collateral for the RoomMates brand. In my free time, I self-taught HTML and CSS.</p>
-                        My desire to design and build websites led to a position working as a freelance front-end developer for IME-Tech. Here, I worked remotely with a team of developers to wireframe, design, and build custom SharePoint applications and sites for a variety of clients including Bank of America and Microsoft.</p>
-                        <p>When the work at IME-Tech began to dry up in 2010, I branched out and established SG, LLC. During this time I worked for a variety of clients throughout the United States including Century Media Records, Rizzetta & Company, SolarGaines, American Music Theatre, Re/Max, South Country Brewing, globalHMA (my current employer), and many more.</p>
-                        <p>My freelance work spanned a variety of skillsets with my primary focus being on developing custom WordPress themes and setting up WordPress sites. I eventually acquired a dedicated CentOS Linux server where I set up a shared hosting environment for my smaller clients. Here, I've been able to provide ongoing support and maintenance for their sites.</p>
-                        <p>In December of 2011, I took on a temporary contract position with JPL in Harrisburg, PA where I worked closely with a team of developers to design and build mobile-friendly sites, HTML5 video players, and landing pages for The Hershey Company. </p>
+                        <p><img src="/assets/images/rebecca-magar-portrait.webp" alt="Rebecca Magar Portrait" class="in-line-photo" />I kicked off my career with a temporary internship at WITF in Harrisburg, PA, where I designed advertisements and layouts for Central PA Magazine. This position allowed me to gain valuable experience in the field while completing my degree, but more importantly, it gave me a sense of purpose and a deeper understanding and appreciation for the broader impact that my work could have.</p>
+                        <p>After graduation, I was hired by RoomMates decor in York, PA to illustrate products and produce packaging and collateral for the RoomMates brand. Painting and drawing were my first loves and influenced my decision to pursue graphic design as a career, so being able to work in a position where I could flex both my design and illustrative skills was a blast!</p>
+                        <p>It was during my time here that I began to dabble in HTML. I saw a need for a skilled web designer at my job and curiosity took hold. I soon found myself with a raging desire to design and build websites. This desire led to a position working as a freelance front-end developer for IME-Tech. Here, I worked remotely with a team of developers to wireframe, design, and build custom SharePoint applications and sites for a variety of clients including Bank of America and Microsoft.</p>
+                        <p>When the work at IME-Tech began to dry up in 2010, I branched out and established SG, LLC. During this time I worked for a variety of clients throughout the United States including Century Media Records, Bullet Tooth Records, Rizzetta & Company, SolarGaines, American Music Theatre, Re/Max, South Country Brewing, globalHMA (my current employer), and many more.</p>
+                        <p>My freelance work spanned a variety of skillsets with my primary focus being on developing custom WordPress themes and setting up WordPress sites. I eventually acquired a dedicated CentOS Linux server where I set up a shared hosting environment for my smaller clients. Here, I've been able to provide ongoing support and maintenance for their sites while maintaining meaningful relationships with a lot of wonderful people.</p>
+                        <p>In December of 2011, I took on a temporary contract position with JPL in Harrisburg, PA where I worked closely with a team of developers to design and build mobile-friendly sites, HTML5 video players, and landing pages for The Hershey Company. These were early mobile sites—built just before responsive layouts took hold. There was an unlimited supply of Hershey's Kisses and team spirit at JPL and I learned so much from my time there.</p>
                         <p>Over the years, globalHMA remained a regular client. I continued to take on more duties at the company and ultimately transitioned to a full-time remote position in 2019. Here, I focus on design, development, and marketing for B2B clients in the heavy industry sector.</p>
-                        <p>I wear a lot of hats at my current job. From graphic design to front-end development, to video editing, to marketing automation and IT tasks — I'm quick to jump in wherever I am needed. My coworkers often tell me "you can do anything!" A willingness to try new things has been paramount to my success working independently and at a small agency where clients regularly introduce new software and systems (and where the ability to be fast, flexible, and versatile is key).</p>
-                        <p>I am always looking for opportunities for growth and learning is extremely important to me. I am currently in the process of completing a JavaScript development course through Udemy and hope to eventually master JavaScript libraries like React.js and Angular.js.</p>
+                        <p>I wear a lot of hats at my current job. From graphic design to front-end development, to video editing, to marketing automation and IT tasks — I'm quick to jump in wherever I am needed. My coworkers often tell me "you can do anything!" A willingness to try new things has been paramount to my success working independently and at a small agency where clients regularly introduce new software and systems (and where the ability to be fast, flexible and versatile is key).</p>
+                        <p>I am always looking for opportunities for growth and learning is extremely important to me. I am currently in the process of completing a JavaScript development course through Udemy and hope to eventually master JavaScript libraries like React.js and Angular.js. If you would like to chat, please feel free to <a href="https://www.linkedin.com/in/rebeccamagar/" target="_blank">give me a follow on LinkedIn</a> or send me a message! I'm always excited to meet new people.</p>
                     </div>
                     <div class="col-sm-4">
                         
@@ -60,63 +61,6 @@
                             <li>Audio Editing</li>
                         </ul>
                         <h3>Skills</h3>
-                        <!--<h4>Code</h4>
-                        <ul class="skills">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Flexbox</li>
-                            <li>Bootstrap</li>
-                            <li>Visual Studio Code</li>
-                            <li>PHPStorm</li>
-                            <li>Dreamweaver</li>
-                            <li>GitHub</li>
-                            <li>MAMP Pro</li>
-                            <li>Google Analytics</li>
-                        </ul>
-                        <h4 class="heading-space">Graphics</h4>
-                        <ul class="skills">
-                            <li>XD</li>    
-                            <li>Sketch</li>
-                            <li>Illustrator</li>
-                            <li>InDesign</li>
-                            <li>Photoshop</li>
-                            <li>Premiere Pro</li>
-                            <li>After Effects</li>
-                            <li>Audition</li>
-                            <li>Lightroom</li>
-                            <li>Procreate</li>
-                            <li>Google Web Designer</li>
-                        </ul>
-                        <h4 class="heading-space">CMS'<span>s</span></h4>
-                        <ul class="skills">
-                            <li>WordPress</li>
-                            <li>Jahia</li>
-                            <li>HubSpot</li>
-                            <li>Drupal</li>
-                            <li>Shopify</li>
-                            <li>Square</li>
-                            <li>Magento</li>    
-                        </ul>
-                        <h4 class="heading-space">Marketing</h4>
-                        <ul class="skills">
-                            <li>MailChimp</li>
-                            <li>Campaign Monitor</li>
-                            <li>Listrak</li>
-                            <li>Act-On</li>
-                            <li>Marketo</li>
-                            <li>Salesforce</li>
-                            <li>Amazon Seller</li>
-                            <li>Channel Advisor</li>
-                        </ul>
-                        <h4 class="heading-space">Productivity</h4>
-                        <ul class="skills">
-                            <li>Office 365</li>
-                            <li>Google Workspace</li>
-                            <li>Slack</li>
-                            <li>Trello</li>
-                            <li>Hive</li>
-                        </ul>-->
-
                         <ul class="accordion">
                             <li>
                                 <a>Code</a>
