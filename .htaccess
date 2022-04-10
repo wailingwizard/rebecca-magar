@@ -1,6 +1,6 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^rebeccamagar\.com$
-RewriteRule ^/?$ "https\:\/\/www\.rebeccamagar\.com\/" [R=301,L]
-RewriteCond %{HTTP_HOST} ^rebecca\-magar\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.rebecca\-magar\.com$
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^rebeccamagar\.com$
+RewriteRule ^/?$ "https\:\/\/www\.rebeccamagar\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^rebecca\-magar\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rebecca\-magar\.com$
 RewriteRule ^/?$ "https\:\/\/www\.rebeccamagar\.com\/" [R=301,L]
