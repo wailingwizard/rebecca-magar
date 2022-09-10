@@ -1,0 +1,366 @@
+/* -------- MAIN NAV -------- */
+
+/* Header */
+.header {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+}
+
+.header-bg {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.header-bg::before,
+.header-bg::after {
+    content: '';
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 300ms cubic-bezier(0.2, 0.8, 0.4, 1.2);
+}
+
+.header-bg::before {
+    background: #19b7ff;
+    transform: translate3d(-60%, -100%, 0);
+}
+
+.header-bg::after {
+    background: #f41d07;
+    transform: translate3d(60%, 100%, 0);
+}
+
+@media (orientation: portrait) {
+    .header-bg::before {
+        transform: translate3d(-20%, -100%, 0);
+    }
+
+    .header-bg::after {
+        transform: translate3d(20%, 100%, 0);
+    }
+}
+
+.header-active .header-bg::before,
+.header-active .header-bg::after {
+    transition: transform 300ms;
+    transform: translate3d(0, 0, 0);
+}
+
+@media (orientation: landscape) and (min-height: 22.5rem) {
+    .header-active .header-bg::before {
+        transform: translate3d(-4rem, -4rem, 0);
+    }
+
+    .header-active .header-bg::after {
+        transform: translate3d(4rem, 4rem, 0);
+    }
+}
+
+.header-container {
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: box-shadow 300ms;
+    width: 100%;
+    z-index: 14;
+}
+
+.header-active .header-container {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.header-container::before {
+    background: white;
+    content: '';
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: opacity 300ms;
+}
+
+.header-active .header-container::before {
+    opacity: 0;
+}
+
+.header-logo {
+    color: black;
+    font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin: 0;
+    padding: 0 1rem 0 0;
+    display: inline-block;
+    position: absolute;
+    top: 0.2rem;
+    left: 1rem;
+    text-transform: uppercase;
+    transition: color 300ms;
+    z-index: 16;
+    pointer-events: auto;
+}
+
+.header-logo a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-active .header-logo a {
+    color: white;
+}
+
+.header-menu {
+    background: black;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 0;
+    padding: 0.6rem;
+    pointer-events: auto;
+    position: absolute;
+    top: 0.4rem;
+    right: 1rem;
+    transition: background 300ms, color 300ms;
+    z-index: 16;
+}
+
+.header-menu:hover {
+    color: #19b7ff;
+}
+
+@media (orientation: portrait),
+(orientation: landscape) and (max-height: 22.499rem) {
+    .header-active .header-menu {
+        background: white;
+        color: black;
+    }
+}
+
+.header-active .header-menu:hover {
+    color: #f41d07;
+}
+
+.header-nav {
+    color: white;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 300ms;
+    width: 100vw;
+    height: calc(100 * var(--vh, 1vh));
+    z-index: 13;
+}
+
+.header-active .header-nav {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 300ms 300ms;
+}
+
+.header-initial .header-nav {
+    transition-duration: 0s;
+}
+
+.header-nav .list {
+    font-size: 20vw;
+}
+
+@media (min-width: 57.5rem) {
+    .header-nav .list {
+        font-size: 11.5rem;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 44.938rem) {
+    .header-nav .list {
+        font-size: 25vh;
+    }
+}
+
+.header-nav .list-item {
+    overflow: hidden;
+    transition: transform 150ms;
+    margin: 0 0 0 0;
+}
+
+.header-nav .list-item:hover {
+    transform: translate3d(-0.5rem, -0.5rem, 0);
+}
+
+.header-lock-body-scroll {
+    overflow: hidden;
+}
+
+/* Navigation */
+
+.list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Anton', 'Work Sans', Helvetica, Arial, sans-serif;
+    font-size: 34vw;
+    justify-content: center;
+    line-height: 90%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+@media (min-width: 35rem) {
+    .list {
+        font-size: 14rem;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 35rem) {
+    .list {
+        font-size: 25vh;
+    }
+}
+
+.list-item {
+    display: block;
+}
+
+.list-link {
+    color: inherit;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+
+/* Menu Icon */
+
+@keyframes before {
+    0% {
+        transform: translate3d(0, 0, 0) rotateZ(-45deg);
+    }
+
+    50% {
+        transform: translate3d(0, 0, 0) rotateZ(0);
+    }
+
+    100% {
+        transform: translate3d(0, -0.333333em, 0) rotateZ(0);
+    }
+}
+
+@keyframes beforeReverse {
+    0% {
+        transform: translate3d(0, -0.333333em, 0) rotateZ(0);
+    }
+
+    50% {
+        transform: translate3d(0, 0, 0) rotateZ(0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0) rotateZ(-45deg);
+    }
+}
+
+@keyframes after {
+    0% {
+        transform: translate3d(0, 0, 0) rotateZ(45deg);
+    }
+
+    50% {
+        transform: translate3d(0, 0, 0) rotateZ(0);
+    }
+
+    100% {
+        transform: translate3d(0, 0.333333em, 0) rotateZ(0);
+    }
+}
+
+@keyframes afterReverse {
+    0% {
+        transform: translate3d(0, 0.333333em, 0) rotateZ(0);
+    }
+
+    50% {
+        transform: translate3d(0, 0, 0) rotateZ(0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0) rotateZ(45deg);
+    }
+}
+
+.menu-icon {
+    align-items: center;
+    display: inline-flex;
+    position: relative;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+
+.menu-icon-bars {
+    height: 0.188rem;
+    transition: background 150ms steps(1);
+}
+
+.menu-icon-bars,
+.menu-icon-bars::before,
+.menu-icon-bars::after {
+    background: currentColor;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.menu-icon-bars::before,
+.menu-icon-bars::after {
+    content: '';
+    height: 100%;
+}
+
+.menu-icon-bars::before {
+    animation: before 300ms forwards;
+}
+
+.menu-icon-bars::after {
+    animation: after 300ms forwards;
+}
+
+.header-active .menu-icon-bars {
+    background: transparent;
+    transition: background 0s steps(1) 150ms;
+}
+
+.header-active .menu-icon-bars::before {
+    animation: beforeReverse 300ms forwards
+}
+
+.header-active .menu-icon-bars::after {
+    animation: afterReverse 300ms forwards;
+}
+
+.header-initial .menu-icon-bars,
+.header-initial .menu-icon-bars::before,
+.header-initial .menu-icon-bars::after {
+    animation-duration: 0s;
+    transition-duration: 0s;
+}
