@@ -5,6 +5,15 @@ RewriteCond %{HTTP_HOST} ^rebecca\-magar\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.rebecca\-magar\.com$
 RewriteRule ^/?$ "https\:\/\/www\.rebeccamagar\.com\/" [R=301,L]
 
+# Deny access to lib folder
+RewriteEngine On
+RewriteRule (^|/)lib(/|$) - [F]
+
+# Deny access to secure files
+<FilesMatch "^(config\.php)$">
+  Require all denied
+</FilesMatch>
+
 <ifmodule mod_deflate.c>
     # Compress HTML, CSS, JavaScript, Text, XML and fonts
     AddOutputFilterByType DEFLATE image/svg+xml
