@@ -24,10 +24,10 @@
             {
                 "@context": "https://schema.org",
                 "@type": "VisualArtwork",
-                "name": "Partners and Harrison Web Presence",
-                "alternateName": "Partners and Harrison Web Design",
-                "image": "https://www.rebeccamagar.com/assets/images/sample-project/partners-and-harrison-banner.webp",
-                "description": "Design and development of the Partners and Harrison website, landing page, email templates, and whitepaper.",
+                "name": "Velocity-X Application UI Design",
+                "alternateName": "Velocity-X UI Design",
+                "image": "https://www.rebeccamagar.com/assets/images/sample-project/velocity-x-app-pny-40-series-gpu-og.webp",
+                "description": "Learn more about Rebecca Magar's design and development process by previewing a sample of her work.",
                 "creator": [
                     {
                     "@type": "Person",
@@ -55,7 +55,7 @@
                     <div class="row portfolio">
                         <div class="col-md-12">
                             <figure class="portfolio-banner">    
-                                <a href="/sample-project/"><span class="image-overlay"></span><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-banner.webp" srcset="/assets/images/sample-project/partners-and-harrison-banner_400.webp 400w, /assets/images/sample-project/partners-and-harrison-banner_800.webp 800w, /assets/images/sample-project/partners-and-harrison-banner.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Web Presence"></a>
+                                <a href="/sample-project/"><span class="image-overlay"></span><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-with-40-series-gpu.webp" srcset="/assets/images/sample-project/velocity-x-app-with-40-series-gpu_400.webp 400w, /assets/images/sample-project/velocity-x-app-with-40-series-gpu_800.webp 800w, /assets/images/sample-project/velocity-x-app-with-40-series-gpu.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X UI Design"></a>
                                 <figcaption><a href="/sample-project/">View a Sample Project</a></figcaption>
                             </figure>
                         </div>
