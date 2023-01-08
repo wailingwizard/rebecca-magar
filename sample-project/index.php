@@ -5,31 +5,27 @@
 
         <title>Portfolio Sample Project | Rebecca Magar</title>
         <meta name="description" content="Learn more about Rebecca Magar's design and development process by previewing a sample of her work.">
-        <meta name="keywords" content="Partners and Harrison, Website Design, Landing Page Design, Graphic Design, Whitepaper Design, Website Development, Email Template Design, Email Template Development, Landing Page Development, Project, Work, Portfolio, Rebecca Magar">
+        <meta name="keywords" content="PNY Technologies, Velocity-X, App Design, UI Design, Web Design, Desktop App, Windows Application, Project, Work, Portfolio, Rebecca Magar">
         <meta name="robots" content="index, follow">
 
         <link rel="canonical" href="https://www.rebeccamagar.com/portfolio-sample-project/" />
-
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@wailingwizard" />
-        <meta name="twitter:creator" content="@wailingwizard" />
 
         <meta property="og:url" content="https://www.rebeccamagar.com/portfolio-sample-project/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Portfolio Sample Project by Rebecca Magar" />
         <meta property="og:description" content="Learn more about Rebecca Magar's design and development process by previewing a sample of her work." />
-        <meta property="og:image" content="https://www.rebeccamagar.com/assets/images/og-images/partners-and-harrison-facebook-og.jpg" />
+        <meta property="og:image" content="https://www.rebeccamagar.com/assets/images/og-images/velocity-x-app-pny-40-series-gpu-og.jpg" />
 
         <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
                 "@type": "VisualArtwork",
-                "name": "Partners and Harrison Web Presence",
-                "alternateName": "Partners and Harrison Design",
-                "image": "https://www.rebeccamagar.com/assets/images/sample-project/partners-and-harrison-rebrand-email-template-mobile-mock.webp",
-                "description": "Design and development of the Partners and Harrison website, landing page, email templates, and whitepaper.",
+                "name": "Velocity-X Windows Desktop Application",
+                "alternateName": "Velocity-X App Design",
+                "image": "https://www.rebeccamagar.com/assets/images/sample-project/velocity-x-app-pny-40-series-gpu.webp",
+                "description": "UI design and updated identity for PNY's Velocity-X Overclocking Software.",
                 "artMedium": "Digital",
-                "artform": "Website, Landing Page, Email Templates, and Whitepaper",
+                "artform": "User Interface Design",
                 "creator": [
                     {
                     "@type": "Person",
@@ -59,7 +55,7 @@
             </div>
             <section class="project">
 
-                <h2 class="portfolio-heading">Partner's &amp; Harrison</h2>
+                <h2 class="portfolio-heading">Velocity-X</h2>
 
                 <div class="container-fluid">
                     <div class="row">
@@ -67,148 +63,25 @@
                         <!--<div><a class="btn primary" href="/portfolio/portfolio.php" target="_blank">Back to Portfolio</a></div>-->
                             <div class="carousel-container gallery" id="gallery1">
                                 <div class="carousel-inner">
+
                                     <div class="carousel-slide fade">
-                                        <p class="caption">Website - Mobile</p>
-                                        <figure id="ttv-email-template-video1" onclick="videoslider('partners-and-harrison-rebrand-website-mobile.mp4')">
-                                            <video id="video1" width="1200" height="675" controls preload="metadata" poster="/assets/images/sample-project/partners-and-harrison-rebrand-website-mobile-poster.webp">
-                                                <source src="/portfolio/assets/videos/partners-and-harrison-rebrand-website-mobile.mp4" type="video/mp4">
-                                                <source src="/portfolio/assets/videos/partners-and-harrison-rebrand-website-mobile.webm" type="video/webm">
-                                                <source src="/portfolio/assets/videos/partners-and-harrison-rebrand-website-mobile.ogg" type="video/ogg">
-                                                <!-- Flash fallback -->
-                                                <object type="application/x-shockwave-flash" data="flash-player.swf?videoUrl=/portfolio/assets/videos/partners-and-harrison-rebrand-website-mobile.mp4">
-                                                    <param name="movie" value="flash-player.swf?videoUrl=/portfolio/assets/videos/partners-and-harrison-rebrand-website-mobile.mp4" />
-                                                    <param name="allowfullscreen" value="true" />
-                                                    <param name="wmode" value="transparent" />
-                                                    <param name="flashvars" value="controlbar=over&amp;image=/assets/images/sample-project/partners-and-harrison-rebrand-website-mobile-poster.webp&amp;file=flash-player.swf?videoUrl=/portfolio/assets/videos/partners-and-harrison-rebrand-website-mobile.mp4" />
-                                                    <img width="1200" height="675" alt="Partners and Harrison Website - Mobile - Video Poster" src="/assets/images/sample-project/partners-and-harrison-rebrand-website-mobile-poster.webp" title="No video playback possible, please download the video from the link below." />
-                                                </object>
-                                                <!-- Offer download -->
-                                                <a href="/portfolio/assets/videos/partners-and-harrison-rebrand-website-mobile.mp4">Download MP4</a>
-                                            </video>
-                                        </figure>
+                                        <p class="caption">40 Series GPU and Velocity-X App</p>
+                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-pny-40-series-gpu.webp" title="Website 1 - Mobile"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-pny-40-series-gpu.webp" srcset="/assets/images/sample-project/velocity-x-app-pny-40-series-gpu_400.webp 400w, /assets/images/sample-project/velocity-x-app-pny-40-series-gpu_800.webp 800w, /assets/images/sample-project/velocity-x-app-pny-40-series-gpu.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Overclocking Software - UI Design"></a>
                                     </div>
 
                                     <div class="carousel-slide fade">
-                                        <p class="caption">Website - Mobile</p>
-                                        <a class="init" href="/assets/images/sample-project/partners-and-harrison-rebrand-website-mobile-mock.webp" title="Website 1 - Mobile"><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-rebrand-website-mobile-mock.webp" srcset="/assets/images/sample-project/partners-and-harrison-rebrand-website-mobile-mock_400.webp 400w, /assets/images/sample-project/partners-and-harrison-rebrand-website-mobile-mock_800.webp 800w, /assets/images/sample-project/partners-and-harrison-rebrand-website-mobile-mock.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison Rebrand - Website 1 Mobile Mockups"></a>
+                                        <p class="caption">Performance Screen</p>
+                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-performance-screen-purple.webp" title="Performance Screen"><img width="1200" height="675" src="/assets/images/sample-project/vvelocity-x-app-performance-screen-purple.webp" srcset="/assets/images/sample-project/velocity-x-app-performance-screen-purple_400.webp 400w, /assets/images/sample-project/velocity-x-app-performance-screen-purple_800.webp 800w, /assets/images/sample-project/velocity-x-app-performance-screen-purple.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - Performance Screen: Purple"></a>
                                     </div>
 
                                     <div class="carousel-slide fade">
-                                        <p class="caption">Website - Desktop</p>
-                                        <figure id="ttv-email-template-video2" onclick="videoslider('partners-and-harrison-rebrand-website-desktop.mp4')">
-                                            <video id="video2" width="1200" height="675" controls preload="metadata" poster="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-poster.webp">
-                                                <source src="/portfolio/assets/videos/partners-and-harrison-rebrand-website-desktop.mp4" type="video/mp4">
-                                                <source src="/portfolio/assets/videos/partners-and-harrison-rebrand-website-desktop.webm" type="video/webm">
-                                                <source src="/portfolio/assets/videos/partners-and-harrison-rebrand-website-desktop.ogg" type="video/ogg">
-                                                <!-- Flash fallback -->
-                                                <object type="application/x-shockwave-flash" data="flash-player.swf?videoUrl=/portfolio/assets/videos/partners-and-harrison-rebrand-website-desktop.mp4">
-                                                    <param name="movie" value="flash-player.swf?videoUrl=/portfolio/assets/videos/partners-and-harrison-rebrand-website-desktop.mp4" />
-                                                    <param name="allowfullscreen" value="true" />
-                                                    <param name="wmode" value="transparent" />
-                                                    <param name="flashvars" value="controlbar=over&amp;image=/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-poster.webp&amp;file=flash-player.swf?videoUrl=/portfolio/assets/videos/partners-and-harrison-rebrand-website-desktop.mp4" />
-                                                    <img width="1200" height="675" alt="Partners and Harrison Website - Desktop - Video Poster" src="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-poster.webp" title="No video playback possible, please download the video from the link below." />
-                                                </object>
-                                                <!-- Offer download -->
-                                                <a href="/portfolio/assets/videos/partners-and-harrison-rebrand-website-desktop.mp4">Download MP4</a>
-                                            </video>
-                                        </figure>
+                                        <p class="caption">Lighting Screen</p>
+                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-lighting-screen-purple.webp" title="Lighting Screen"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-lighting-screen-purple.webp" srcset="/assets/images/sample-project/velocity-x-app-lighting-screen-purple_400.webp 400w, /assets/images/sample-project/velocity-x-app-lighting-screen-purple_800.webp 800w, /assets/images/sample-project/velocity-x-app-lighting-screen-purple.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - Lighting Screen: Purple"></a>
                                     </div>
 
                                     <div class="carousel-slide fade">
-                                        <p class="caption">Website - Desktop</p>
-                                        <a class="init" href="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-1.webp" title="Website - Desktop 1"><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-1.webp" srcset="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-1_400.webp 400w, /assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-1_800.webp 800w, /assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-1.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison Website - Desktop 1 Mockups"></a>
-                                    </div>
-
-                                    <div class="carousel-slide fade">
-                                        <p class="caption">Website - Desktop</p>
-                                        <a class="init" href="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-2.webp" title="Website - Desktop 2"><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-2.webp" srcset="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-2_400.webp 400w, /assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-2_800.webp 800w, /assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-2.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison Website - Desktop 2 Mockups"></a>
-                                    </div>
-
-                                    <div class="carousel-slide fade">
-                                        <p class="caption">Website - Desktop</p>
-                                        <a class="init" href="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-1.webp" title="Website - Desktop 1"><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-1.webp" srcset="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-1_400.webp 400w, /assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-1_800.webp 800w, /assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-1.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison Website - Desktop 1 Mockups"></a>
-                                    </div>
-
-                                    <div class="carousel-slide fade">
-                                        <p class="caption">Website - Desktop</p>
-                                        <a class="init" href="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-2.webp" title="Website - Desktop 2"><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-2.webp" srcset="/assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-1_400.webp 400w, /assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-2_800.webp 800w, /assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-2.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison Website - Desktop 2 Mockups"></a>
-                                    </div>
-
-                                    <div class="carousel-slide fade">
-                                        <p class="caption">Email Template - Email Client</p>
-                                        <figure id="ttv-email-template-video3" onclick="videoslider('partners-and-harrison-rebrand-email.mp4')">
-                                            <video id="video3" width="1200" height="675" controls preload="metadata" poster="/assets/images/sample-project/partners-and-harrison-rebrand-email-poster.webp">
-                                                <source src="/portfolio/assets/videos/partners-and-harrison-rebrand-email.mp4" type="video/mp4">
-                                                <source src="/portfolio/assets/videos/partners-and-harrison-rebrand-email.webm" type="video/webm">
-                                                <source src="/portfolio/assets/videos/partners-and-harrison-rebrand-email.ogg" type="video/ogg">
-                                                <!-- Flash fallback -->
-                                                <object type="application/x-shockwave-flash" data="flash-player.swf?videoUrl=/portfolio/assets/videos/partners-and-harrison-rebrand-email.mp4">
-                                                    <param name="movie" value="flash-player.swf?videoUrl=/portfolio/assets/videos/partners-and-harrison-rebrand-email.mp4" />
-                                                    <param name="allowfullscreen" value="true" />
-                                                    <param name="wmode" value="transparent" />
-                                                    <param name="flashvars" value="controlbar=over&amp;image=/assets/images/sample-project/partners-and-harrison-rebrand-email-poster.webp&amp;file=flash-player.swf?videoUrl=/portfolio/assets/videos/partners-and-harrison-rebrand-email.mp4" />
-                                                    <img width="1200" height="675" alt="Partners and Harrison Email Template - Video Poster" src="/assets/images/sample-project/partners-and-harrison-rebrand-email-poster.webp" title="No video playback possible, please download the video from the link below." />
-                                                </object>
-                                                <!-- Offer download -->
-                                                <a href="/portfolio/assets/videos/partners-and-harrison-rebrand-email.mp4">Download MP4</a>
-                                            </video>
-                                        </figure>
-                                    </div>
-
-                                    <div class="carousel-slide fade">
-                                        <p class="caption">Email Template - Mobile</p>
-                                        <a class="init" href="/assets/images/sample-project/partners-and-harrison-rebrand-email-template-mobile-mock.webp" title="Email - Mobile"><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-rebrand-email-template-mobile-mock.webp" srcset="/assets/images/sample-project/partners-and-harrison-rebrand-email-template-mobile-mock_400.webp 400w, /assets/images/sample-project/partners-and-harrison-rebrand-email-template-mobile-mock_800.webp 800w, /assets/images/sample-project/partners-and-harrison-rebrand-email-template-mobile-mock.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Email Template - Mobile Mockups"></a>
-                                    </div>
-
-                                    <div class="carousel-slide fade">
-                                        <p class="caption">Email Template - Email Client</p>
-                                        <a class="init" href="/assets/images/sample-project/partners-and-harrison-rebrand-email-template-mock.webp" title="Email - Client"><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-rebrand-email-template-mock.webp" srcset="/assets/images/sample-project/partners-and-harrison-rebrand-email-template-mock_400.webp 400w, /assets/images/sample-project/partners-and-harrison-rebrand-email-template-mock_800.webp 800w, /assets/images/sample-project/partners-and-harrison-rebrand-email-template-mock.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Email Template Mockups"></a>
-                                    </div>
-
-                                    <div class="carousel-slide fade">
-                                        <p class="caption">Whitepaper - Pages 1 to 3</p>
-                                        <a class="init" href="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-1.webp" title="Whitepaper - Pages 1 to 3"><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-1.webp" srcset="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-1_400.webp 400w, /assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-1_800.webp 800w, /assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-1.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Whitepaper 1 Mockups"></a>
-                                    </div>
-
-                                    <div class="carousel-slide fade">
-                                        <p class="caption">Whitepaper - Pages 4 to 6</p>
-                                        <a class="init" href="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-2.webp" title="Whitepaper - Pages 4 to 6"><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-2.webp" srcset="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-2_400.webp 400w, /assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-2_800.webp 800w, /assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-2.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Whitepaper 2 Mockups"></a>
-                                    </div>
-
-                                    <div class="carousel-slide fade">
-                                        <p class="caption">Whitepaper - Pages 7 to 9</p>
-                                        <a class="init" href="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-3.webp" title="Whitepaper - Pages 7 to 9"><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-3.webp" srcset="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-3_400.webp 400w, /assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-3_800.webp 800w, /assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-3.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Whitepaper 3 Mockups"></a>
-                                    </div>
-
-                                    <div class="carousel-slide fade">
-                                    <p class="caption">Landing Page</p>
-                                        <figure id="ttv-email-template-video4" onclick="videoslider('partners-and-harrison-rebrand-landing-page.mp4')">
-                                            <video id="video4" width="1200" height="675" controls preload="metadata" poster="/assets/images/sample-project/partners-and-harrison-rebrand-landing-page-poster.webp">
-                                                <source src="/portfolio/assets/videos/partners-and-harrison-rebrand-landing-page.mp4" type="video/mp4">
-                                                <source src="/portfolio/assets/videos/partners-and-harrison-rebrand-landing-page.webm" type="video/webm">
-                                                <source src="/portfolio/assets/videos/partners-and-harrison-rebrand-landing-page.ogg" type="video/ogg">
-                                                <!-- Flash fallback -->
-                                                <object type="application/x-shockwave-flash" data="flash-player.swf?videoUrl=/portfolio/assets/videos/partners-and-harrison-rebrand-landing-page.mp4">
-                                                    <param name="movie" value="flash-player.swf?videoUrl=/portfolio/assets/videos/partners-and-harrison-rebrand-landing-page.mp4" />
-                                                    <param name="allowfullscreen" value="true" />
-                                                    <param name="wmode" value="transparent" />
-                                                    <param name="flashvars" value="controlbar=over&amp;image=/assets/images/sample-project/partners-and-harrison-rebrand-landing-page-poster.webp&amp;file=flash-player.swf?videoUrl=/portfolio/assets/videos/partners-and-harrison-rebrand-landing-page.mp4" />
-                                                    <img width="1200" height="675" alt="Partners and Harrison Website - Desktop - Video Poster" src="/assets/images/sample-project/partners-and-harrison-rebrand-landing-page-poster.webp" title="No video playback possible, please download the video from the link below." />
-                                                </object>
-                                                <!-- Offer download -->
-                                                <a href="/portfolio/assets/videos/partners-and-harrison-rebrand-landing-page.mp4">Download MP4</a>
-                                            </video>
-                                        </figure>
-                                    </div>
-
-                                    <div class="carousel-slide fade">
-                                        <p class="caption">Landing Page - Desktop</p>
-                                        <a class="init" href="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-desktop-monitor-mock.webp" title="Landing Page - Desktop"><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-desktop-monitor-mock.webp" srcset="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-desktop-monitor-mock_400.webp 400w, /assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-desktop-monitor-mock_800.webp 800w, /assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-desktop-monitor-mock.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Landing Page Desktop Mockups"></a>
-                                    </div>
-
-                                    <div class="carousel-slide fade">
-                                        <p class="caption">Landing Page - Mobile</p>
-                                        <a class="init" href="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-mobile-mock.webp" title="Whitepaper Landing Page - Mobile"><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-mobile-mock.webp" srcset="/assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-mobile-mock_400.webp 400w, /assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-mobile-mock_800.webp 800w, /assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-mobile-mock.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Landing Page Mobile Mockups"></a>
+                                        <p class="caption">Desktop Background Variations</p>
+                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-screen-colorways.webp" title="Website 1 - Mobile"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-screen-colorways.webp" srcset="/assets/images/sample-project/velocity-x-app-screen-colorways_400.webp 400w, /assets/images/sample-project/velocity-x-app-screen-colorways_800.webp 800w, /assets/images/sample-project/velocity-x-app-screen-colorways.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - Desktop Background Variations"></a>
                                     </div>
 
                                     <a class="prev" onclick='plusSlides(-1)'><i class="fas fa-chevron-left fa-2xl"></i></a>
@@ -219,18 +92,6 @@
                                     <span class="carousel-dot" onclick='currentSlide(2)'></span>
                                     <span class="carousel-dot" onclick='currentSlide(3)'></span>
                                     <span class="carousel-dot" onclick='currentSlide(4)'></span>
-                                    <span class="carousel-dot" onclick='currentSlide(5)'></span>
-                                    <span class="carousel-dot" onclick='currentSlide(6)'></span>
-                                    <span class="carousel-dot" onclick='currentSlide(7)'></span>
-                                    <span class="carousel-dot" onclick='currentSlide(8)'></span>
-                                    <span class="carousel-dot" onclick='currentSlide(9)'></span>
-                                    <span class="carousel-dot" onclick='currentSlide(10)'></span>
-                                    <span class="carousel-dot" onclick='currentSlide(11)'></span>
-                                    <span class="carousel-dot" onclick='currentSlide(12)'></span>
-                                    <span class="carousel-dot" onclick='currentSlide(13)'></span>
-                                    <span class="carousel-dot" onclick='currentSlide(14)'></span>
-                                    <span class="carousel-dot" onclick='currentSlide(15)'></span>
-                                    <span class="carousel-dot" onclick='currentSlide(16)'></span>
                                 </div>
                             </div>
                         </div>
@@ -241,32 +102,26 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-8">
-                            <h2 class="heading-space">Partner's &amp; Harrison Web Presence</h2>
+                            <h2 class="heading-space">Velocity-X UI Design</h2>
                             <h4 class="heading-space">Challenge</h4>
-                            <p>Partners &amp; Harrison was a newly established agency seeking a freelancer to design and develop their web presence and to guide them through the process of marketing themselves in a digital space.</p> 
+                            <p>PNY Technologies, Inc. was seeking to update their outdated Velocity-X GPU Overclocking software to go along with the release of their new 40 Series GPUs. The Windows desktop app would need to support existing features from the older app along with an entirely new interface for controlling GPU RGB lighting effects. The app also needed a branding refresh along with a new app icon.</p> 
                             <h4 class="heading-space">Solution</h4>
-                            <p>To keep costs down it was determined the client would need a website that they could easily update themselves. WordPress was selected for its affordability and user-friendly interface. We chose to implement MailChimp for the company newsletter which allowed for the development of custom email templates that the client could reuse for future mailings. An initial campaign was sent to their existing leads to announce the new website and capabilities.</p>
-                            <p>A blog was implemented to enable the agency to begin positioning itself as a thought leader and to keep the website updated and relevant in search engines. We worked closely together to design and implement their first whitepaper and landing page which would serve as a template for ongoing thought-leadership campaigns.</p>
+                            <p>The existing Velocity-X software featured an outdated UI that we felt was confusing and difficult to use. I chose to design a new interface that would be based on current Windows design toolkits and on user interfaces that are familiar to modern day gamers. I felt that a combination of vibrant color along with a flat black UI would provide the best experience for users and this became the base for the UI design.</p>
+                            <p>Competitor apps provided the option to select custom skins to modify the app, which seemed to be a feature gamers enjoyed. Since we didn't want to dedicate the resources to developing and maintaining custom skins, I chose to design the app using an acrylic overlay to allow the background to show through with a blur effect. This effectively achieved the same goal as custom skins (the app would match the look and feel of whatever desktop background the user chooses).</p>
                             <h4 class="heading-space">Results</h4>
-                            <p>The initial website announcement and whitepaper campaign generated several leads for the agency and Partner's and Harrison was subsequently awarded two large design and development projects which resulted in ongoing collaborations between the company and myself.</p>
+                            <p>The UI design was extremely well received by PNY's internal teams and we were able to build and release a new version of the app to meet the tight deadline of the 40 Series GPU launch. The app has received very positive feedback from users and I continue to work closely with the developers to provide guidance, plan new features, and update the UI designs accordingly.</p>
                         </div>
                         <div class="col-sm-4">
                             <h4 class="heading-space">CLIENT</h4>
-                            <p>Partners &amp; Harrison</p>
+                            <p>PNY Technologies, Inc.</p>
                             <h4>INDUSTRY</H4>
-                            <p>Advertising</p>
+                            <p>Computers and Electronics Manufacturing</p>
                             <h4 class="heading-space">Skills</h4>
                             <ul>
-                                <li>WordPress</li>
-                                <li>Bootstrap</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Sketch</li>
-                                <li>MailChimp</li>
+                                <li>UI Design</li>
+                                <li>Adobe XD</li>
                                 <li>Adobe Photoshop</li>
                                 <li>Adobe Illustrator</li>
-                                <li>Adobe InDesign</li>
-                                <li>Google Analytics</li>
                             </ul>
                         </div>
                     </div>

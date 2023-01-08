@@ -51,7 +51,7 @@
         </script>
         
         <title>Rebecca Magar | Web Designer and Front-End Developer</title>
-        <meta name="description" content="Rebecca is a web / UI designer with 14+ years of experience designing and building responsive sites, applications, landing pages, and email templates.">
+        <meta name="description" content="Rebecca is a web / UI designer with 16+ years of experience designing and building responsive sites, applications, landing pages, and email templates.">
         <meta name="keywords" content="Rebecca Magar, Web Designer, UI Designer, Graphic Designer, Front-End Developer, HTML Developer, CSS Developer, Javascript Developer, jQuery Developer, Illustrator, Artist, Portfolio, Design">
         <meta name="robots" content="index, follow">
 
@@ -64,7 +64,7 @@
         <meta property="og:url" content="https://www.rebeccamagar.com" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Rebecca Magar - Web/UI Designer and Front-End Developer" />
-        <meta property="og:description" content="Rebecca is a proficient web / UI designer with 14+ years of experience designing and building responsive sites, applications, landing pages, and email templates." />
+        <meta property="og:description" content="Rebecca is a proficient web / UI designer with 16+ years of experience designing and building responsive sites, applications, landing pages, and email templates." />
         <meta property="og:image" content="https://www.rebeccamagar.com/assets/images/og-images/rebecca-magar-og.jpg" />
 
         <script type="application/ld+json">
@@ -102,7 +102,7 @@
                     <div class="row portfolio">
                         <div class="col-md-12">
                             <figure class="portfolio-banner" itemscope itemtype="https://schema.org/VisualArtwork">
-                                <a href="/sample-project/"><span class="image-overlay"></span><img width="1200" height="675" src="/assets/images/sample-project/partners-and-harrison-banner.webp" srcset="/assets/images/sample-project/partners-and-harrison-banner_400.webp 400w, /assets/images/sample-project/partners-and-harrison-banner_800.webp 800w, /assets/images/sample-project/partners-and-harrison-banner.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Partners and Harrison - Web Presence" itemprop="image"></a>
+                                <a href="/sample-project/"><span class="image-overlay"></span><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-with-40-series-gpu.webp" srcset="/assets/images/sample-project/velocity-x-app-with-40-series-gpu_400.webp 400w, /assets/images/sample-project/velocity-x-app-with-40-series-gpu_800.webp 800w, /assets/images/sample-project/velocity-x-app-with-40-series-gpu.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - UI Design" itemprop="image"></a>
                                 <figcaption><a href="/sample-project/">View a Sample Project</a></figcaption>
                             </figure>
                         </div>
