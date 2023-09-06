@@ -80,6 +80,11 @@
                                     </div>
 
                                     <div class="carousel-slide fade">
+                                        <p class="caption">App Windows</p>
+                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-popup-windows.webp" title="App Windows"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-popup-windows.webp" srcset="/assets/images/sample-project/velocity-x-app-popup-windows_400.webp 400w, /assets/images/sample-project/velocity-x-app-popup-windows.webp 800w, /assets/images/sample-project/velocity-x-app-popup-windows.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - App Windows"></a>
+                                    </div>
+
+                                    <div class="carousel-slide fade">
                                         <p class="caption">Desktop Background Variations</p>
                                         <a class="init" href="/assets/images/sample-project/velocity-x-app-screen-colorways.webp" title="Desktop Background Variations"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-screen-colorways.webp" srcset="/assets/images/sample-project/velocity-x-app-screen-colorways_400.webp 400w, /assets/images/sample-project/velocity-x-app-screen-colorways_800.webp 800w, /assets/images/sample-project/velocity-x-app-screen-colorways.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - Desktop Background Variations"></a>
                                     </div>
@@ -92,6 +97,7 @@
                                     <span class="carousel-dot" onclick='currentSlide(2)'></span>
                                     <span class="carousel-dot" onclick='currentSlide(3)'></span>
                                     <span class="carousel-dot" onclick='currentSlide(4)'></span>
+                                    <span class="carousel-dot" onclick='currentSlide(5)'></span>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +107,8 @@
             <section class="main-content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-sm-8">
+                        <div class="col-md-1"></div>
+                        <div class="col-sm-7">
                             <h2 class="heading-space">Velocity-X UI Design</h2>
                             <h4 class="heading-space">Challenge</h4>
                             <p>PNY Technologies, Inc. was seeking to update their outdated Velocity-X GPU Overclocking software to go along with the release of their new 40 Series GPUs. The Windows desktop app would need to support existing features from the older app and would require an entirely new interface for controlling GPU RGB lighting effects. The app also needed an updated icon.</p> 
@@ -111,11 +118,15 @@
                             <h4 class="heading-space">Results</h4>
                             <p>The UI design was extremely well received by PNY's internal teams and we were able to build and release a new version of the app to meet the tight deadline of the 40 Series GPU launch. The app has received very positive feedback from users and I continue to work closely with the developers to provide guidance, plan new features, and update the UI designs accordingly.</p>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-3">
                             <h4 class="heading-space">CLIENT</h4>
                             <p>PNY Technologies, Inc.</p>
                             <h4>INDUSTRY</H4>
                             <p>Computers and Electronics Manufacturing</p>
+                            <h4>PROTOTYPES</h4>
+                            <ul>
+                                <li><a href="https://xd.adobe.com/view/c4f97ee7-d55b-46e8-bc7e-a5f7207ef1a7-91aa/?fullscreen&hints=off" target="_blank">App Prototype</a>
+                            </ul>
                             <h4 class="heading-space">Skills</h4>
                             <ul>
                                 <li>UI Design</li>
@@ -124,14 +135,17 @@
                                 <li>Adobe Illustrator</li>
                             </ul>
                         </div>
+                        <div class="col-md-1"></div>
                     </div>
                 </div>
             </section>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
                         <p class="nopad"><a class="btn secondary" href="/portfolio/"><i class="fas fa-chevron-left fa-2xl" aria-hidden="true"></i> &nbsp;Login to View Full Portfolio</a></p>
                     </div>
+                    <div class="col-md-1"></div>
                 </div>
             </div>
         </main>

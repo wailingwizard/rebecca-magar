@@ -41,7 +41,8 @@
             <section class="main-content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
                             <div class="row">
                                 <form class="contact-form" method="post" enctype="multipart/form-data" novalidate>
 
@@ -96,21 +97,15 @@
                                             <img src="captcha.php" width="150" height="50" alt="CAPTCHA">
                                         </div>
                                     </div>
-
                                     <div class="col-sm-12">
-
                                         <button type="submit" class="btn">Submit</button>
-
                                         <a href="#" class="btn btn-secondary clear-form">Clear</a>
-
                                     </div>
-
                                     <p class="col-sm-12 errors"></p>  
-
                                 </form>
-
                             </div>
                         </div>
+                        <div class="col-sm-1"></div>
                     </div>
                 </div>
             </section>
