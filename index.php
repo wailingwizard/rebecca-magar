@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js no-touch">
-
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-icon-72x72.png">
@@ -23,15 +21,12 @@
         <meta name="msapplication-TileColor" content="#181507">
         <meta name="msapplication-TileImage" content="/assets/images/favicons/ms-icon-144x144.png">
         <meta name="theme-color" content="#181507">
-
         <script src="https://kit.fontawesome.com/4f5cb747bc.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
         <link rel="stylesheet" href="/assets/css/styles.css">
         <link rel="stylesheet" href="/assets/css/hero.min.css">
-
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CHZ0DE48N"></script>
         <script>
@@ -41,7 +36,6 @@
 
             gtag('config', 'G-2CHZ0DE48N');
         </script>
-
         <script>
             (function(c,l,a,r,i,t,y){
                 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -49,24 +43,20 @@
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
             })(window, document, "clarity", "script", "9z24k887rj");
         </script>
-        
+    
         <title>Rebecca Magar | Web Designer and Front-End Developer</title>
         <meta name="description" content="Rebecca is a UI/UX designer with 16+ years of experience designing and building responsive sites, applications, landing pages, and email templates.">
         <meta name="keywords" content="Rebecca Magar, Web Designer, UI Designer, Graphic Designer, Front-End Developer, HTML Developer, CSS Developer, Javascript Developer, jQuery Developer, Illustrator, Artist, Portfolio, Design">
         <meta name="robots" content="index, follow">
-
         <link rel="canonical" href="https://www.rebeccamagar.com">
-
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@wailingwizard">
         <meta name="twitter:creator" content="@wailingwizard">
-
         <meta property="og:url" content="https://www.rebeccamagar.com">
         <meta property="og:type" content="website">
         <meta property="og:title" content="Rebecca Magar - Web/UI Designer and Front-End Developer">
         <meta property="og:description" content="Rebecca is a proficient web / UI designer with 16+ years of experience designing and building responsive sites, applications, landing pages, and email templates.">
         <meta property="og:image" content="https://www.rebeccamagar.com/assets/images/og-images/rebecca-magar-og.jpg">
-
         <script type="application/ld+json">
             {
             "@context": "https://schema.org",
@@ -83,7 +73,6 @@
 
     <body class="home">
         <?php include 'includes/hero.php'; ?>
-        
         <main>
             <section class="main-content">
                 <div class="container-fluid">

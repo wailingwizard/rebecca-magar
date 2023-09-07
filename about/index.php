@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js no-touch">
-
     <head>
         <?php include '../includes/head.php'; ?>
-
         <title>About Rebecca's Skills and Experience | Rebecca Magar</title>
         <meta name="description" content="From graphic design to front-end development to video editing & more – Rebecca has worn many hats in her career. Learn more about her skills & experience.">
         <meta name="keywords" content="Rebecca Magar, About, Bio, Information, History, Experience, Skills, Capabilities, Profile, Web Designer, UI Designer, Graphic Designer, Front-End Developer, HTML Developer, CSS Developer, Javascript Developer, jQuery Developer, Illustrator, Artist, Portfolio, Design">
         <meta name="robots" content="index, follow">
-
         <link rel="canonical" href="https://www.rebeccamagar.com/about/">
-
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@wailingwizard">
         <meta name="twitter:creator" content="@wailingwizard">
-
         <meta property="og:url" content="https://www.rebeccamagar.com/about/">
         <meta property="og:type" content="website">
         <meta property="og:title" content="About Rebecca Magar's Skills and Experience">
         <meta property="og:description" content="From graphic design to front-end development to video editing and marketing automation – Rebecca has worn many hats in her career. Learn more about her skills and experience.">
         <meta property="og:image" content="https://www.rebeccamagar.com/assets/images/og-images/rebecca-magar-og.jpg">
-
         <script type="application/ld+json">
             {
             "@context": "https://schema.org",
@@ -34,11 +28,8 @@
             }
         </script>
     </head>
-
     <body class="about">
-
         <?php include '../includes/nav.php'; ?>
-
         <main>
             <section class="main-content">
                 <div class="container-fluid">
@@ -155,8 +146,6 @@
                 </div>
             </section>
         </main>
-
         <?php include '../includes/footer.php'; ?>
-
     </body>
 </html>

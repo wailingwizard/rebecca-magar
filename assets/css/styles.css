@@ -878,6 +878,43 @@ header a:hover {
   }
 }
 
+/* -------- BREADCRUMB -------- */
+
+.breadcrumb {
+  border-bottom: #181507 1px solid;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 2.5rem;
+}
+.breadcrumb ul {
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb li {
+  list-style-type: none;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 0 0;
+}
+.breadcrumb li::after {
+  content: "/";
+}
+.breadcrumb li:last-child::after {
+  content: "";
+}
+.breadcrumb li a {
+  text-decoration: none;
+  margin: 0 10px 0 5px;
+}
+
+.breadcrumb li a:hover,
+.breadcrumb li a:active,
+.breadcrumb li a:focus {
+  color:#181507;
+  text-decoration: underline;
+}
+
 /* -------- MAIN CONTENT -------- */
 main {
   position: relative;
@@ -1958,9 +1995,19 @@ img.bio {
   background-size: cover;
 }
 
-
-
 /* -------- PORTFOLIO -------- */
+.industry {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 10px 0 0 0;
+}
+.emphasized-text {
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 10px;
+}
 .carousel-container {
   width: 100%;
   position: relative;
