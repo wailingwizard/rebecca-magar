@@ -36,8 +36,6 @@
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-10">
-                        <div class="col-md-1"></div>
-                        <div class="col-md-10">
                             <h2>Privacy Policy</h2>
                             <p>This privacy policy describes the way in which I, Rebecca Magar, use and protect the information that you have provided to me.</p>
                             <p>I am committed to ensuring that your privacy is protected. All personal identity information that you choose to provide to me while using this website, will only be used in accordance with this privacy statement.</p>
@@ -52,13 +50,11 @@
                             <h3>Information I collect</h3>
                             <p>I only collect information about you if I have a reason to do so–for example, to provide my services, to communicate with you, or to make my website better.</p>
                             <p>I collect information in two ways: if and when you provide information to me, and automatically through operating my services. Let's go over the information that I collect.</p>
-                            <p>I collect information in two ways: if and when you provide information to me, and automatically through operating my services. Let's go over the information that I collect.</p>
                             <ul>
                                 <li>Name</li>
                                 <li>Contact information including your email address</li>
                             </ul>
                             <h4>Information you provide to me</h4>
-                            <p>It's probably no surprise that I collect information that you provide to me. The amount and type of information depends on the context and how I use the information. For example:</p>
                             <p>It's probably no surprise that I collect information that you provide to me. The amount and type of information depends on the context and how I use the information. For example:</p>
                             <ul>
                                 <li>Communications with me (Hi there!): You may provide me with information when you communicate directly with me via me contact form, or by contacting me through other means.</li>
@@ -69,7 +65,6 @@
                                 <li>Log information: Like most online service providers, I collect information that web browsers, mobile devices, and servers typically make available, such as the browser type, IP address, unique device identifiers, language preference, referring site, the date and time of access, operating system, and mobile network information. I collect log information when you use my website–for example, when you send a message through my contact form or login to my portfolio.</li>
                                 <li>Usage information: I collect information about your usage of my services. For example, I collect information about what happens when you use my website (e.g., page views, form submissions, etc.) along with information about your device (e.g., screen size, name of cellular network, and mobile device manufacturer). I use this information to, for example, provide my services to you, as well as get insights on how people use my website so I can make my website better.</li>
                                 <li>Location information: I may determine the approximate location of your device from your IP address. I collect and use this information to, for example, calculate how many people visit my website from certain geographic regions.</li>
-                                <li>Information from cookies and other technologies: A cookie is a string of information that a website stores on a visitor's computer, and that the visitor's browser provides to the website each time the visitor returns. Pixel tags (also called web beacons) are small blocks of code placed on websites and emails. I use cookies and other technologies like pixel tags to help me identify and track visitors, usage, and access preferences for my website. For more information about my use of cookies and other technologies for tracking, including how you can control the use of cookies, please see my <a href="#cookies">Cookie Policy</a> below.</li>
                                 <li>Information from cookies and other technologies: A cookie is a string of information that a website stores on a visitor's computer, and that the visitor's browser provides to the website each time the visitor returns. Pixel tags (also called web beacons) are small blocks of code placed on websites and emails. I use cookies and other technologies like pixel tags to help me identify and track visitors, usage, and access preferences for my website. For more information about my use of cookies and other technologies for tracking, including how you can control the use of cookies, please see my <a href="#cookies">Cookie Policy</a> below.</li>
                             </ul>
                             <h3 id="howandwhy">How and Why I Use Information</h3>
@@ -93,9 +88,7 @@
                             <h3>Sharing Information</h3>
                             <h4>How I Share Information</h4>
                             <p>I do not sell my users' private personal information.</p>
-                            <p>I do not sell my users' private personal information.</p>
                             <p>I share information about you in the limited circumstances spelled out below and with appropriate safeguards on your privacy:</p>
-                            <p><strong>Third party vendors:</strong> I may share information about you with third party vendors who need to know information about you in order to provide their services to me, or to provide their services to you. This group includes vendors that help me provide my services to you (like email delivery services that help me stay in touch with you, registrars, registries, and data escrow services that allow my website to function, my hosting provider to troubleshoot website problems, those that help me understand and enhance my website - like analytics providers), who may need information to, for example, provide technical or other support services. I require vendors to agree to privacy commitments in order to share information with them.</p>
                             <p><strong>Third party vendors:</strong> I may share information about you with third party vendors who need to know information about you in order to provide their services to me, or to provide their services to you. This group includes vendors that help me provide my services to you (like email delivery services that help me stay in touch with you, registrars, registries, and data escrow services that allow my website to function, my hosting provider to troubleshoot website problems, those that help me understand and enhance my website - like analytics providers), who may need information to, for example, provide technical or other support services. I require vendors to agree to privacy commitments in order to share information with them.</p>
                             <p><strong>Legal requests:</strong> I may disclose information about you in response to a subpoena, court order, or other governmental request.</p>
                             <p><strong>To protect rights, property, and others:</strong> I may disclose information about you when I believe in good faith that disclosure is reasonably necessary to protect the property or rights of myself, third parties, or the public at large. For example, if I have a good faith belief that there is an imminent danger of death or serious physical injury, I may disclose information related to the emergency without delay.</p>
@@ -106,7 +99,6 @@
                             <p>Both websites and HTML emails may also contain other tracking technologies such as “web beacons” or “pixels.” These are typically small transparent images that provide us with statistics, for similar purposes as cookies. They are often used in conjunction with cookies, though they are not stored on your computer in the same way. As a result, if you disable cookies, web beacons may still load, but their functionality will be restricted.</p>
                             <h4>How I Use Cookies</h4>
                             <p>I use cookies for a number of different purposes. Some cookies are necessary for technical reasons, while some enable a personalized experience for visitors. Some of these cookies may be set when a page is loaded, or when a visitor takes a particular action.</p>
-                            <p>Many of the cookies I use are only set if you are logging into the site (so you don't have to log in every time, for example), while others are set whenever you visit my website, irrespective of whether you have an account.</p>
                             <p>Many of the cookies I use are only set if you are logging into the site (so you don't have to log in every time, for example), while others are set whenever you visit my website, irrespective of whether you have an account.</p>
                             <h4>Types of Cookies</h4>
                             <p>The table below explains the types of cookies I use on my website and why I use them.</p>
@@ -169,10 +161,8 @@
                             <p>Visitors may wish to restrict the use of cookies or completely prevent them from being set. Most browsers provide for ways to control cookie behavior such as the length of time they are stored – either through built-in functionality or by utilizing third party plugins. If you disable cookies, please be aware that some of the features of my website may not function correctly.</p>
                             <p>To find out more on how to manage and delete cookies, visit <a href="https://aboutcookies.org" target="_blank">aboutcookies.org</a>. For more details on your choices regarding use of your web browsing activity for interest-based advertising visit <a href="https://youronlinechoices.eu" target="_blank">youronlinechoices.eu</a> (EU based) or <a href="https://optout.aboutads.info" target="_blank">optout.aboutads.info</a> (US based). On a mobile device, you may also be to adjust your settings to limit ad tracking.</p>
                             <p>You can opt out of Google Analytics by installing Google's opt-out browser add-on.</p>
-                            <p>You can opt out of Google Analytics by installing Google's opt-out browser add-on.</p>
                             <h3>How Long I Keep Information</h3>
                             <p>I generally discard information about you when I no longer need the information for the purposes for which I collect and use it–which are described in the section above on <a href="#howandwhy">How and Why I Use Information</a>–and I am not legally required to continue to keep it.</p>
-                            <p>For example, I keep the web server logs that record information about a visitor to my website, such as the visitor's IP address, browser type, and operating system, for approximately 30 days. I retain the logs for this period of time in order to, among other things, analyze traffic to my website and investigate issues if something goes wrong on my website.</p>
                             <p>For example, I keep the web server logs that record information about a visitor to my website, such as the visitor's IP address, browser type, and operating system, for approximately 30 days. I retain the logs for this period of time in order to, among other things, analyze traffic to my website and investigate issues if something goes wrong on my website.</p>
                             <h3>Security</h3>
                             <p>While no online service is 100% secure, I work very hard to protect information about you against unauthorized access, use, alteration, or destruction, and take reasonable measures to do so, such as monitoring my services for potential vulnerabilities and attacks, implementing firewall protection, protecting forms with CAPTCHA, and keeping my technologies updated and maintained.</p>
@@ -209,7 +199,6 @@
                             <h3>Change Log</h3>
                             <p>December 5, 2021:  Created privacy policy.</p>
                         </div>
-                        <div class="col-md-1"></div>
                         <div class="col-md-1"></div>
                     </div>
                 </div>
