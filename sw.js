@@ -7,7 +7,7 @@
 //-----------------------------------------
 
 // Init cache name/version
-const cacheName = 'v2.1';
+const cacheName = 'v2.4';
 
 // which pages/assets do you want to cache?
 const cacheAssets = [

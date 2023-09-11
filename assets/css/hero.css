@@ -8,7 +8,7 @@
     z-index: 13;
 }
 .header-scroll-active:not(.header-active) {
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+    border-bottom: #181507 1px solid;
 }
 .header::before {
     background: #fff;
@@ -50,10 +50,10 @@
     cursor: pointer;
 }
 .header-scroll-active:not(.header-active) .header-logo a {
-    color: #000;
+    color: #181507;
 }
 .header-menu {
-    background: #000;
+    background: #181507;
     border: 0;
     color: #fff;
     cursor: pointer;
@@ -74,7 +74,7 @@
 @media (orientation: portrait), (orientation: landscape) and (max-height: 22.499rem) {
     .header-active .header-menu {
         background: #fff;
-        color: #000;
+        color: #181507;
     }
 }
 .header-active .header-menu:hover {

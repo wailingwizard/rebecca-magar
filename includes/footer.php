@@ -1,7 +1,7 @@
 
     <footer class="footer">
         <div class="smile">
-            <img src="/assets/images/ui-elements/happy-face-dark.svg" width="66" alt="Smiley Face" />
+            <img src="/assets/images/ui-elements/happy-face-dark.svg" width="66" height="62" alt="Smiley Face" />
         </div>
         <div class="copyright">
             <p>
