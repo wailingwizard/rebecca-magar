@@ -39,9 +39,18 @@
     <body class="portfolio-project">
         <?php include '../includes/nav.php'; ?>
         <main style="padding-top: 0;">
+        <main style="padding-top: 0;">
             <div class="container-fluid">
                 <div class="row nopad">
+                <div class="row nopad">
                     <div class="col-md-12">
+                        <div class="breadcrumb">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/portfolio/portfolio.php">Portfolio</a></li>
+                                <li>Sample Project</li>
+                            </ul>
+                        </div>
                         <div class="breadcrumb">
                             <ul>
                                 <li><a href="/">Home</a></li>
@@ -53,6 +62,7 @@
                 </div>
             </div>
             <section class="project">
+                <h2 class="portfolio-heading">VelocityX</h2>
                 <h2 class="portfolio-heading">VelocityX</h2>
                 <div class="container-fluid">
                     <div class="row">
@@ -76,6 +86,10 @@
                                         <a class="init" href="/assets/images/sample-project/velocity-x-app-popup-windows.webp" title="App Windows"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-popup-windows.webp" srcset="/assets/images/sample-project/velocity-x-app-popup-windows_400.webp 400w, /assets/images/sample-project/velocity-x-app-popup-windows.webp 800w, /assets/images/sample-project/velocity-x-app-popup-windows.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - App Windows"></a>
                                     </div>
                                     <div class="carousel-slide fade">
+                                        <p class="caption">App Windows</p>
+                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-popup-windows.webp" title="App Windows"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-popup-windows.webp" srcset="/assets/images/sample-project/velocity-x-app-popup-windows_400.webp 400w, /assets/images/sample-project/velocity-x-app-popup-windows.webp 800w, /assets/images/sample-project/velocity-x-app-popup-windows.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - App Windows"></a>
+                                    </div>
+                                    <div class="carousel-slide fade">
                                         <p class="caption">Desktop Background Variations</p>
                                         <a class="init" href="/assets/images/sample-project/velocity-x-app-screen-colorways.webp" title="Desktop Background Variations"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-screen-colorways.webp" srcset="/assets/images/sample-project/velocity-x-app-screen-colorways_400.webp 400w, /assets/images/sample-project/velocity-x-app-screen-colorways_800.webp 800w, /assets/images/sample-project/velocity-x-app-screen-colorways.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - Desktop Background Variations"></a>
                                     </div>
@@ -87,6 +101,7 @@
                                     <span class="carousel-dot" onclick='currentSlide(2)'></span>
                                     <span class="carousel-dot" onclick='currentSlide(3)'></span>
                                     <span class="carousel-dot" onclick='currentSlide(4)'></span>
+                                    <span class="carousel-dot" onclick='currentSlide(5)'></span>
                                     <span class="carousel-dot" onclick='currentSlide(5)'></span>
                                 </div>
                             </div>
@@ -101,7 +116,19 @@
                             <h2 class="nopad">VelocityX Desktop Application</h2>
                             <h3 class="industry" class="nopad"><strong>Industry:</strong> Gaming / Computer hardware</h3>
                             <p class="emphasized-text">PNY Technologies, Inc. was seeking to update their outdated Velocity-X GPU Overclocking software to go along with the release of their new 40 Series GPUs. The Windows desktop app would need to support existing features from the older app and would require an entirely new interface for controlling GPU RGB lighting effects. The app also needed an updated icon.</p> 
+                    <div class="row border-bottom pad">
+                        <div class="col-sm-7">
+                            <h2 class="nopad">VelocityX Desktop Application</h2>
+                            <h3 class="industry" class="nopad"><strong>Industry:</strong> Gaming / Computer hardware</h3>
+                            <p class="emphasized-text">PNY Technologies, Inc. was seeking to update their outdated Velocity-X GPU Overclocking software to go along with the release of their new 40 Series GPUs. The Windows desktop app would need to support existing features from the older app and would require an entirely new interface for controlling GPU RGB lighting effects. The app also needed an updated icon.</p> 
                         </div>
+                        <div class="col-sm-5">
+                            <h3 class="h-h3">SKILLS &amp; SOFTWARE</h3>
+                            <ul class="skills-list">
+                                <li>UI/UX Design</li>
+                                <li>Wireframing</li>
+                                <li>Prototyping</li>
+                                <li>User Research</li>
                         <div class="col-sm-5">
                             <h3 class="h-h3">SKILLS &amp; SOFTWARE</h3>
                             <ul class="skills-list">
@@ -111,7 +138,9 @@
                                 <li>User Research</li>
                                 <li>Adobe XD</li>
                                 <li>Graphic Design</li>
+                                <li>Graphic Design</li>
                                 <li>Adobe Illustrator</li>
+                                <li>Adobe Photoshop</li>
                                 <li>Adobe Photoshop</li>
                             </ul>
                         </div>

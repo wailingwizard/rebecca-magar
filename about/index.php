@@ -15,6 +15,15 @@
         <meta property="og:title" content="About Rebecca Magar's Skills and Experience">
         <meta property="og:description" content="From graphic design to front-end development to video editing and marketing automation – Rebecca has worn many hats in her career. Learn more about her skills and experience.">
         <meta property="og:image" content="https://www.rebeccamagar.com/assets/images/og-images/rebecca-magar-og.jpg">
+        <link rel="canonical" href="https://www.rebeccamagar.com/about/">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@wailingwizard">
+        <meta name="twitter:creator" content="@wailingwizard">
+        <meta property="og:url" content="https://www.rebeccamagar.com/about/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="About Rebecca Magar's Skills and Experience">
+        <meta property="og:description" content="From graphic design to front-end development to video editing and marketing automation – Rebecca has worn many hats in her career. Learn more about her skills and experience.">
+        <meta property="og:image" content="https://www.rebeccamagar.com/assets/images/og-images/rebecca-magar-og.jpg">
         <script type="application/ld+json">
             {
             "@context": "https://schema.org",
@@ -33,6 +42,9 @@
         <main>
             <section class="main-content">
                 <div class="container-fluid">
+                    <div class="row nopad">
+                        <div class="col-md-12 nopad centered">
+                            <figure class="image-banner">    
                     <div class="row nopad">
                         <div class="col-md-12 nopad centered">
                             <figure class="image-banner">    
@@ -143,7 +155,17 @@
                                 <li>Graphic Design</li>
                                 <li>Adobe InDesign</li>
                                 <li>Procreate</li>
+                                <li>Adobe InDesign</li>
+                                <li>Procreate</li>
                                 <li>Video Editing</li>
+                                <li>Premiere Pro</li>
+                                <li>After Effects</li>
+                                <li>Microsoft Office 365</li>
+                                <li>Google Workspace</li>
+                                <li>Asana</li>
+                                <li>Slack</li>
+                                <li>Trello</li>
+                                <li>Hive</li>
                                 <li>Premiere Pro</li>
                                 <li>After Effects</li>
                                 <li>Microsoft Office 365</li>

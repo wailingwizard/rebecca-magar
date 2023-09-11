@@ -281,6 +281,10 @@ a:focus, button:focus {
   outline-width: 4px !important;
   outline-color: #19b7ff !important;
 }
+a:focus, button:focus {
+  outline-width: 4px !important;
+  outline-color: #19b7ff !important;
+}
 ::-moz-selection {
   background: #181507;
   color: #fff;
@@ -483,6 +487,7 @@ figure.portfolio-banner img {
 figure.image-banner img {
   width: 100%;
   max-width: 64rem;
+  max-width: 64rem;
   height: auto;
   aspect-ratio: 16 / 9;
 }
@@ -554,6 +559,7 @@ h6 {
   color: #181507;
   margin: 0 0 0.75rem 0;
   text-transform: none;
+  text-transform: none;
 }
 h2 a,
 h3 a,
@@ -583,6 +589,8 @@ h2 {
 main h2 {
   font-size: 2rem;
   line-height: 2.5rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
   margin-top: 0;
 }
 h2.portfolio-heading {
@@ -595,7 +603,10 @@ h2.portfolio-heading {
 }
 h3, .h-h3 {
   font-size: 1.375rem;
+h3, .h-h3 {
+  font-size: 1.375rem;
   line-height: 2rem;
+  text-transform: uppercase;
   text-transform: uppercase;
 }
 .portfolio-banner figcaption, .login-banner a .img-label {
@@ -641,6 +652,7 @@ h4, h3.h-h4 {
   font-size: 1.125rem;
   line-height: 1.375rem;
   font-weight: 600;
+  text-transform: uppercase;
   text-transform: uppercase;
 }
 .heading-space {
@@ -690,6 +702,8 @@ li {
 }
 ul.skills-list li,
 ul.clients-list li,
+ul.skills-list li,
+ul.clients-list li,
 ul.sitemap-links li {
   margin-left: 0;
 }
@@ -733,9 +747,12 @@ main button {
   z-index: 10;
 }
 .btn.primary {
+.btn.primary {
   display: inline-block;
   margin-bottom: 1.5rem;
   color: #fff;
+  border: 1px solid transparent;
+  border-radius: 50px !important;
   border: 1px solid transparent;
   border-radius: 50px !important;
   font-size: 1rem;
@@ -745,7 +762,9 @@ main button {
   font-weight: 500;
   font-family: 'Work Sans', Helvetica, Arial, sans-serif;
   padding: 0.625rem 2rem 0.628rem 1rem;
+  padding: 0.625rem 2rem 0.628rem 1rem;
   background: #181507 url(../images/ui-elements/button-arrow.svg) no-repeat;
+  background-position: 95% center;
   background-position: 95% center;
   background-size: 0.75rem;
   -webkit-transition: all 0.2s ease-in-out;
@@ -753,12 +772,16 @@ main button {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   filter: drop-shadow(5px 4px 0px #19b7ff);
+  filter: drop-shadow(5px 4px 0px #19b7ff);
 }
 .btn.primary:hover,
 .btn.primary:active,
 .btn.primary:focus {
   padding-right: 2.3rem;
+.btn.primary:focus {
+  padding-right: 2.3rem;
   cursor: pointer;
+  filter: drop-shadow(5px 4px 0px #f01d07);
   filter: drop-shadow(5px 4px 0px #f01d07);
 }
 .btn.secondary {
@@ -785,10 +808,12 @@ main button {
 .btn.secondary:hover,
 .btn.secondary:active,
 .btn.secondary:focus {
+.btn.secondary:focus {
   color: #19b7ff;
   border-color: #19b7ff;
   cursor: pointer;
 }
+input[type="submit"], .btn.primary.back {
 input[type="submit"], .btn.primary.back {
   margin-top: 0.75rem;
   cursor: pointer;
@@ -814,6 +839,51 @@ input[type="submit"], .btn.primary.back {
   -moz-transition: padding 0.2s ease-in-out;
   -o-transition: padding 0.2s ease-in-out;
   transition: padding 0.2s ease-in-out;
+  cursor: pointer;
+  margin: 1.5rem 0.313rem 1.5rem 0;
+  font-size: 1rem;
+  line-height: 1.125rem;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+  color: #fff;
+  border: 1px transparent;
+  border-radius: 100px;
+  padding: 0.5rem 1.7rem 0.5rem 0.8rem;
+  background: #181507 url(../images/ui-elements/button-arrow.svg) no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+    background-size: auto;
+  background-position: right center;
+  background-size: 0.75rem;
+  -webkit-transition: padding 0.2s ease-in-out;
+  -moz-transition: padding 0.2s ease-in-out;
+  -o-transition: padding 0.2s ease-in-out;
+  transition: padding 0.2s ease-in-out;
+}
+.btn.primary.back {
+  background: #181507 url(../images/ui-elements/button-arrow-back.svg) no-repeat;
+    background-position-x: 10%;
+    background-position-y: center;
+    background-size: 1em;
+  filter: none;
+  padding: 0.5rem 0.8rem 0.5rem  1.7rem;
+}
+input[type="submit"]:hover {
+  padding-right: 1.875rem;
+  cursor: pointer;
+  background-color: #19b7ff;
+  color: #181507;
+  filter: none;
+}
+.btn.primary.back:hover {
+  padding-left: 1.875rem;
+  cursor: pointer;
+  background-color: #19b7ff;
+  color: #181507;
+  filter: none;
 }
 .btn.primary.back {
   background: #181507 url(../images/ui-elements/button-arrow-back.svg) no-repeat;
@@ -915,12 +985,50 @@ header a:hover {
   text-decoration: underline;
 }
 
+/* -------- BREADCRUMB -------- */
+
+.breadcrumb {
+  border-bottom: #181507 1px solid;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 2.5rem;
+}
+.breadcrumb ul {
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb li {
+  list-style-type: none;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 0 0;
+}
+.breadcrumb li::after {
+  content: "/";
+}
+.breadcrumb li:last-child::after {
+  content: "";
+}
+.breadcrumb li a {
+  text-decoration: none;
+  margin: 0 10px 0 5px;
+}
+
+.breadcrumb li a:hover,
+.breadcrumb li a:active,
+.breadcrumb li a:focus {
+  color:#181507;
+  text-decoration: underline;
+}
+
 /* -------- MAIN CONTENT -------- */
 main {
   position: relative;
   width: 100%;
   text-align: center;
   padding-bottom: 4.25rem;
+  padding-top: 3rem;
   padding-top: 3rem;
   margin-top: 3em;
   z-index: 10;
@@ -938,6 +1046,12 @@ main {
   position: relative;
   bottom: -7.813rem;
   z-index: 1;
+}
+.portrait-position img {
+  width: 100%;
+  max-width: 430px;
+  text-align: center;
+  display: inline;
 }
 .portrait-position img {
   width: 100%;
@@ -966,6 +1080,7 @@ main {
   .portrait-position img {
     width: 60%;
     max-width: 330px !important;
+    max-width: 330px !important;
     text-align: center;
     display: inline;
   }
@@ -978,6 +1093,7 @@ main {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   text-align: left;
+  max-width: 79.25rem;
   max-width: 79.25rem;
 }
 .row,
@@ -1783,8 +1899,11 @@ ul.sitemap-links {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .pad {
+  padding: 3rem 0;
   padding: 3rem 0;
 }
 .nopad {

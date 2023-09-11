@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js no-touch">
-
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-icon-72x72.png">
@@ -23,7 +21,6 @@
         <meta name="msapplication-TileColor" content="#181507">
         <meta name="msapplication-TileImage" content="/assets/images/favicons/ms-icon-144x144.png">
         <meta name="theme-color" content="#181507">
-
         <script src="https://kit.fontawesome.com/4f5cb747bc.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +28,6 @@
 
         <link rel="stylesheet" href="/assets/css/styles.css">
         <link rel="stylesheet" href="/assets/css/hero.min.css">
-
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CHZ0DE48N"></script>
         <script>
@@ -41,7 +37,6 @@
 
             gtag('config', 'G-2CHZ0DE48N');
         </script>
-
         <script>
             (function(c,l,a,r,i,t,y){
                 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -49,7 +44,7 @@
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
             })(window, document, "clarity", "script", "9z24k887rj");
         </script>
-        
+    
         <title>Rebecca Magar | Web Designer and Front-End Developer</title>
         <meta name="description" content="Rebecca is a UI/UX designer with 16+ years of experience designing and building responsive sites, applications, landing pages, and email templates.">
         <meta name="keywords" content="Rebecca Magar, Web Designer, UI Designer, Graphic Designer, Front-End Developer, HTML Developer, CSS Developer, Javascript Developer, jQuery Developer, Illustrator, Artist, Portfolio, Design">
@@ -83,7 +78,6 @@
 
     <body class="home">
         <?php include 'includes/hero.php'; ?>
-        
         <main>
             <section class="main-content">
                 <div class="container-fluid">
@@ -96,7 +90,10 @@
                         </div>
                         <div class="col-sm-4">
                             <img width="378" height="1046" src="/assets/images/rebecca-magar-portrait-halftone.webp" alt="Rebecca Magar - UI/Web Designer and Front-End Developer">
+                        <div class="col-sm-4">
+                            <img width="378" height="1046" src="/assets/images/rebecca-magar-portrait-halftone.webp" alt="Rebecca Magar - UI/Web Designer and Front-End Developer">
                         </div>
+                        <div class="col-md-1"></div>
                         <div class="col-md-1"></div>
                     </div>
 
@@ -104,11 +101,14 @@
                     <div class="row portfolio">
                         <div class="col-md-1"></div>
                         <div class="col-md-10">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
                             <figure class="portfolio-banner" itemscope itemtype="https://schema.org/VisualArtwork">
                                 <a href="/sample-project/"><span class="image-overlay"></span><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-with-40-series-gpu.webp" srcset="/assets/images/sample-project/velocity-x-app-with-40-series-gpu_400.webp 400w, /assets/images/sample-project/velocity-x-app-with-40-series-gpu_800.webp 800w, /assets/images/sample-project/velocity-x-app-with-40-series-gpu.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - UI Design" itemprop="image"></a>
                                 <figcaption><a href="/sample-project/">View a Sample Project</a></figcaption>
                             </figure>
                         </div>
+                        <div class="col-md-1"></div>
                         <div class="col-md-1"></div>
                     </div>
                     <div class="row">
@@ -124,6 +124,7 @@
         
         <footer class="footer">
             <div class="smile">
+                <img src="/assets/images/ui-elements/happy-face-dark.svg" width="66" height="62" alt="Smiley Face">
                 <img src="/assets/images/ui-elements/happy-face-dark.svg" width="66" height="62" alt="Smiley Face">
             </div>
             <div class="copyright">
