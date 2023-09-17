@@ -60,7 +60,7 @@
                             <p>I began my journey by earning a degree in graphic design. My education provided me with a comprehensive understanding of visual communication, typography, and creative problem-solving. Over the course of my career, I gravitated towards the digital realm, gradually transitioning into roles focused on UI/UX design and front-end development. My extensive experience and thirst for knowledge have allowed me to navigate the ever-evolving tech landscape and quickly adapt to new tools, trends, and technologies. Today, I specialize in crafting user-centric interfaces and translating them into seamless front-end experiences. Design remains my unwavering passion, and I continually seek new challenges to further refine my expertise.</p>
                         </div>
                         <div class="col-sm-5">
-                            <h3 class="h-h3">NOTABLE CLIENTS</h3>
+                            <h3 class="h-h3">NOTABLE BRANDS</h3>
                             <ul class="clients-list">
                                 <li>Microsoft</li>
                                 <li>PNY Technologies</li>
@@ -140,7 +140,6 @@
                                 <li>Act-On</li>
                                 <li>Marketo</li>
                                 <li>Salesforce</li>
-                                <li>Graphic Design</li>
                                 <li>Adobe InDesign</li>
                                 <li>Procreate</li>
                                 <li>Video Editing</li>
@@ -158,11 +157,9 @@
                                 const searchInput = document.getElementById("searchInput");
                                 const skillsList = document.querySelector(".skills-list");
                                 const listItems = skillsList.querySelectorAll("li");
-
                                 // Add an event listener to the input field
                                 searchInput.addEventListener("input", function() {
                                     const searchTerm = searchInput.value.toLowerCase();
-
                                     // Loop through the list items and hide/show based on the search term
                                     listItems.forEach((item) => {
                                         const text = item.textContent.toLowerCase();
@@ -180,6 +177,5 @@
             </section>
         </main>
         <?php include '../includes/footer.php'; ?>
-        
     </body>
 </html>

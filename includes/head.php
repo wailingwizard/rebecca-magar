@@ -24,8 +24,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/styles.min.css?ver=2.1">
-    <link rel="stylesheet" href="/assets/css/nav.min.css?ver=1.1">
+    <link rel="stylesheet" href="/assets/css/styles.min.css?ver=2.6">
+    <link rel="stylesheet" href="/assets/css/nav.min.css?ver=1.4">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CHZ0DE48N"></script>
     <script>
@@ -34,10 +34,10 @@
         gtag('js', new Date());
         gtag('config', 'G-2CHZ0DE48N');
     </script>
-    <script>
+    <!--<script type="text/javascript">
         (function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
             t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "9z24k887rj");
-    </script>
+        })(window, document, "clarity", "script", "iu0c8z32bn");
+    </script>-->

@@ -49,8 +49,16 @@
     text-decoration: none;
     cursor: pointer;
 }
+.header-logo a:hover,
+.header-logo a:focus {
+    color: #181507;
+}
 .header-scroll-active:not(.header-active) .header-logo a {
     color: #181507;
+}
+.header-scroll-active:not(.header-active) .header-logo a:hover,
+.header-scroll-active:not(.header-active) .header-logo a:focus {
+    color: #19b7ff;
 }
 .header-menu {
     background: #181507;
@@ -153,6 +161,8 @@
 }
 .hero-bg::before {
     background: #19b7ff;
+    border: transparent 1px solid;
+    border-radius: 0 0 50px 0;
     transform: translate3d(-50%, calc(2.5rem - 100%), 0);
 }
 .hero-scroll-active .hero-bg::before {
@@ -160,6 +170,8 @@
 }
 .hero-bg::after {
     background: #f41d07;
+    border: transparent 1px solid;
+    border-radius: 50px 0 0 0;
     transform: translate3d(60%, calc(100% - 2.5rem), 0);
 }
 .hero-scroll-active .hero-bg::after {
@@ -180,12 +192,22 @@
     transition: transform 300ms;
     transform: translate3d(0, 0, 0);
 }
+.hero-blue .hero-bg::before,
+.hero-both .hero-bg::before {
+    border-radius: 0 0 400px 0; 
+}
+.hero-red .hero-bg::after,
+.hero-both .hero-bg::after {
+    border-radius: 400px 0 0 0; 
+}
 @media (orientation: landscape) and (min-height: 22.5rem) {
     .hero-both .hero-bg::before {
         transform: translate3d(-4rem, -4rem, 0);
+        border-radius: 0 0 200px 0;
     }
     .hero-both .hero-bg::after {
         transform: translate3d(4rem, 4rem, 0);
+        border-radius: 200px 0 0 0;
     }
 }
 .hero-hotspot {

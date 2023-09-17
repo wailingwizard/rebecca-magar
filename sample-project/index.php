@@ -16,10 +16,10 @@
             {
                 "@context": "https://schema.org",
                 "@type": "VisualArtwork",
-                "name": "Velocity-X Windows Desktop Application",
-                "alternateName": "Velocity-X App Design",
+                "name": "VelocityX Windows Desktop Application",
+                "alternateName": "VelocityX App Design",
                 "image": "https://www.rebeccamagar.com/assets/images/sample-project/velocity-x-app-pny-40-series-gpu.webp",
-                "description": "UI design and updated identity for PNY's Velocity-X Overclocking Software.",
+                "description": "UI design and updated identity for PNY's VelocityX Overclocking Software.",
                 "artMedium": "Digital",
                 "artform": "User Interface Design",
                 "creator": [
@@ -45,7 +45,6 @@
                         <div class="breadcrumb">
                             <ul>
                                 <li><a href="/">Home</a></li>
-                                <li><a href="/portfolio/portfolio.php">Portfolio</a></li>
                                 <li>Sample Project</li>
                             </ul>
                         </div>
@@ -60,24 +59,24 @@
                             <div class="carousel-container gallery" id="gallery1">
                                 <div class="carousel-inner">
                                     <div class="carousel-slide fade">
-                                        <p class="caption">40 Series GPU and Velocity-X App</p>
-                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-pny-40-series-gpu.webp" title="40 Series GPU and Velocity-X App"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-pny-40-series-gpu.webp" srcset="/assets/images/sample-project/velocity-x-app-pny-40-series-gpu_400.webp 400w, /assets/images/sample-project/velocity-x-app-pny-40-series-gpu_800.webp 800w, /assets/images/sample-project/velocity-x-app-pny-40-series-gpu.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Overclocking Software - UI Design"></a>
+                                        <p class="caption">40 Series GPU and VelocityX App</p>
+                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-pny-40-series-gpu.webp" title="40 Series GPU and VelocityX App"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-pny-40-series-gpu.webp" srcset="/assets/images/sample-project/velocity-x-app-pny-40-series-gpu_400.webp 400w, /assets/images/sample-project/velocity-x-app-pny-40-series-gpu_800.webp 800w, /assets/images/sample-project/velocity-x-app-pny-40-series-gpu.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="VelocityX Overclocking Software - UI Design"></a>
                                     </div>
                                     <div class="carousel-slide fade">
                                         <p class="caption">Performance Screen</p>
-                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-performance-screen-purple.webp" title="Performance Screen"><img width="1200" height="675" src="/assets/images/sample-project/vvelocity-x-app-performance-screen-purple.webp" srcset="/assets/images/sample-project/velocity-x-app-performance-screen-purple_400.webp 400w, /assets/images/sample-project/velocity-x-app-performance-screen-purple_800.webp 800w, /assets/images/sample-project/velocity-x-app-performance-screen-purple.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - Performance Screen: Purple"></a>
+                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-performance-screen-purple.webp" title="Performance Screen"><img width="1200" height="675" src="/assets/images/sample-project/vvelocity-x-app-performance-screen-purple.webp" srcset="/assets/images/sample-project/velocity-x-app-performance-screen-purple_400.webp 400w, /assets/images/sample-project/velocity-x-app-performance-screen-purple_800.webp 800w, /assets/images/sample-project/velocity-x-app-performance-screen-purple.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="VelocityX Application - Performance Screen: Purple"></a>
                                     </div>
                                     <div class="carousel-slide fade">
                                         <p class="caption">Lighting Screen</p>
-                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-lighting-screen-purple.webp" title="Lighting Screen"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-lighting-screen-purple.webp" srcset="/assets/images/sample-project/velocity-x-app-lighting-screen-purple_400.webp 400w, /assets/images/sample-project/velocity-x-app-lighting-screen-purple_800.webp 800w, /assets/images/sample-project/velocity-x-app-lighting-screen-purple.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - Lighting Screen: Purple"></a>
+                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-lighting-screen-purple.webp" title="Lighting Screen"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-lighting-screen-purple.webp" srcset="/assets/images/sample-project/velocity-x-app-lighting-screen-purple_400.webp 400w, /assets/images/sample-project/velocity-x-app-lighting-screen-purple_800.webp 800w, /assets/images/sample-project/velocity-x-app-lighting-screen-purple.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="VelocityX Application - Lighting Screen: Purple"></a>
                                     </div>
                                     <div class="carousel-slide fade">
                                         <p class="caption">App Windows</p>
-                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-popup-windows.webp" title="App Windows"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-popup-windows.webp" srcset="/assets/images/sample-project/velocity-x-app-popup-windows_400.webp 400w, /assets/images/sample-project/velocity-x-app-popup-windows.webp 800w, /assets/images/sample-project/velocity-x-app-popup-windows.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - App Windows"></a>
+                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-popup-windows.webp" title="App Windows"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-popup-windows.webp" srcset="/assets/images/sample-project/velocity-x-app-popup-windows_400.webp 400w, /assets/images/sample-project/velocity-x-app-popup-windows.webp 800w, /assets/images/sample-project/velocity-x-app-popup-windows.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="VelocityX Application - App Windows"></a>
                                     </div>
                                     <div class="carousel-slide fade">
                                         <p class="caption">Desktop Background Variations</p>
-                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-screen-colorways.webp" title="Desktop Background Variations"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-screen-colorways.webp" srcset="/assets/images/sample-project/velocity-x-app-screen-colorways_400.webp 400w, /assets/images/sample-project/velocity-x-app-screen-colorways_800.webp 800w, /assets/images/sample-project/velocity-x-app-screen-colorways.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - Desktop Background Variations"></a>
+                                        <a class="init" href="/assets/images/sample-project/velocity-x-app-screen-colorways.webp" title="Desktop Background Variations"><img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-screen-colorways.webp" srcset="/assets/images/sample-project/velocity-x-app-screen-colorways_400.webp 400w, /assets/images/sample-project/velocity-x-app-screen-colorways_800.webp 800w, /assets/images/sample-project/velocity-x-app-screen-colorways.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="VelocityX Application - Desktop Background Variations"></a>
                                     </div>
                                     <a class="prev" onclick='plusSlides(-1)'><i class="fas fa-chevron-left fa-2xl"></i></a>
                                     <a class="next" onclick='plusSlides(1)'><i class="fas fa-chevron-right fa-2xl"></i></a>
@@ -100,7 +99,7 @@
                         <div class="col-sm-7">
                             <h2 class="nopad">VelocityX Desktop Application</h2>
                             <h3 class="industry" class="nopad"><strong>Industry:</strong> Gaming / Computer hardware</h3>
-                            <p class="emphasized-text">PNY Technologies, Inc. was seeking to update their outdated Velocity-X GPU Overclocking software to go along with the release of their new 40 Series GPUs. The Windows desktop app would need to support existing features from the older app and would require an entirely new interface for controlling GPU RGB lighting effects. The app also needed an updated icon.</p> 
+                            <p class="emphasized-text">PNY Technologies, Inc. was seeking to update their outdated VelocityX GPU Overclocking software to go along with the release of their new 40 Series GPUs. The Windows desktop app would need to support existing features from the older app and would require an entirely new interface for controlling GPU RGB lighting effects. The app also needed an updated icon.</p> 
                         </div>
                         <div class="col-sm-5">
                             <h3 class="h-h3">SKILLS &amp; SOFTWARE</h3>
@@ -147,7 +146,7 @@
                             <a class="btn primary" href="https://xd.adobe.com/view/c4f97ee7-d55b-46e8-bc7e-a5f7207ef1a7-91aa/?fullscreen&hints=off" target="_blank">View Prototype</a>
                         </div>
                         <div class="col-sm-6" style="padding-right: 40px;">
-                            <img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-and-icon.webp" alt="Velocity-X App and Icon Design">
+                            <img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-and-icon.webp" alt="VelocityX App and Icon Design">
                         </div>
                     </div>
                 </div>

@@ -454,10 +454,13 @@ picture img {
   margin: 0;
   padding: 0;
 }
-figure.portfolio-banner {
+a.portfolio-banner {
+  display: block;
+  width: auto;
+  height: auto;
   position: relative;
 }
-figure.portfolio-banner .image-overlay {
+a.portfolio-banner .image-overlay {
   display: block;
   position: absolute;
   top: 0;
@@ -465,15 +468,19 @@ figure.portfolio-banner .image-overlay {
   width: 0;
   height: 0;
   background-color: #f41d07;
+  box-sizing: border-box;
+  border: transparent 1px solid;
+  border-radius: 0 0 800px 0;
   mix-blend-mode: multiply;
-  z-index: 0;
+  z-index: 1;
   transition: all 0.65s ease;
 }
-figure.portfolio-banner:hover .image-overlay {
+a.portfolio-banner:hover .image-overlay {
   width: 100%;
   height: 100%;
+  border-radius: 0 0 0 0;
 }
-figure.portfolio-banner img {
+a.portfolio-banner img {
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -598,33 +605,42 @@ h3, .h-h3 {
   line-height: 2rem;
   text-transform: uppercase;
 }
-.portfolio-banner figcaption, .login-banner a .img-label {
+a.portfolio-banner figcaption, .login-banner a .img-label {
   width: 0;
+  display: block;
   height: 1rem;
-  transition: all 0.15s ease;
+  transition: all 0.4s ease;
   position: absolute;
-  z-index: 999999;
+  z-index: 3;
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
-  padding: 0.188rem 0 0.313rem 0;
+  padding: 0.4rem 0 0.5rem 0;
   bottom: 15%;
-  line-height: 1rem;
+  line-height: 16px;
   left: 0;
+  white-space: nowrap;
   overflow: hidden;
 }
-.portfolio-banner figure:hover figcaption, .login-banner a:hover .img-label {
+.portfolio-banner:hover figure figcaption,
+.portfolio-banner:active figure figcaption,
+.portfolio-banner:focus figure figcaption,
+.login-banner a:hover .img-label,
+.portfolio-banner:hover figure figcaption,
+.portfolio-banner:active figure figcaption,
+.portfolio-banner:focus figure figcaption {
   width: auto;
-  padding: 0.188rem 0.5rem 0.313rem 2.5rem;
+  padding: 0.4rem 0.5rem 0.5rem 2.5rem;
+  white-space: nowrap;
 }
 @media screen and (max-width: 28.75rem) {
   .portfolio-banner figcaption, .login-banner a .img-label {
     display: none;
   }
 }
-.portfolio-banner figcaption a,
-.portfolio-banner figcaption a:hover,
-.portfolio-banner figcaption a:focus,
-.portfolio-banner figcaption a:active {
+.portfolio-banner figcaption,
+.portfolio-banner:hover figcaption,
+.portfolio-banner:focus figcaption,
+.portfolio-bannera:active figcaption {
   color: #fff;
 }
 .sitemap h3 {
@@ -653,12 +669,6 @@ h4, h3.h-h4 {
   font-weight: 500;
 }
 .sitemap h4 {
-  font-size: 1rem;
-  line-height: 1.375rem;
-  text-transform: none;
-}
-h5,
-.portfolio h3 {
   font-size: 1rem;
   line-height: 1.375rem;
   text-transform: none;
@@ -849,6 +859,13 @@ video {
   aspect-ratio: 16 / 9;
   margin-bottom: -0.938rem;
 }
+video.square {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 16;
+  margin-bottom: -0.938rem;
+}
 
 /* FONTS */
 a {
@@ -904,14 +921,13 @@ header a:hover {
   content: "";
 }
 .breadcrumb li a {
-  text-decoration: none;
   margin: 0 10px 0 5px;
 }
 
 .breadcrumb li a:hover,
 .breadcrumb li a:active,
 .breadcrumb li a:focus {
-  color:#181507;
+  color:#0078af;
   text-decoration: underline;
 }
 
@@ -1000,7 +1016,7 @@ ul.sitemap-links {
   padding-bottom: 1.5rem;
 }
 .row.portfolio {
-  padding-bottom: 3.5rem;
+  margin-bottom: 5rem;
 }
 .home .row.portfolio {
   padding-bottom: 0;
@@ -1786,6 +1802,12 @@ ul.sitemap-links {
 }
 .pad {
   padding: 3rem 0;
+}
+.pad-bottom {
+  padding: 0 0 3rem 0;
+}
+.pad-top {
+  padding: 3rem  0 0 0;
 }
 .nopad {
   padding-bottom: 0;
