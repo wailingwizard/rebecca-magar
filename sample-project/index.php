@@ -154,7 +154,7 @@
                             <a class="btn primary" href="https://xd.adobe.com/view/c4f97ee7-d55b-46e8-bc7e-a5f7207ef1a7-91aa/?fullscreen&hints=off" target="_blank">View Prototype (XD)</a>
                         </div>
                         <div class="col-sm-6" style="padding-right: 40px;">
-                            <img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-and-icon.webp" alt="VelocityX App and Icon Design">
+                            <img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-and-icon.webp" alt="VelocityX App and Icon Design" class="pad-top">
                         </div>
                     </div>
                 </div>
