@@ -26,7 +26,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/assets/css/styles.min.css?ver=2.6">
-        <link rel="stylesheet" href="/assets/css/hero.min.css?ver=1.6">
+        <link rel="stylesheet" href="/assets/css/hero.min.css?ver=1.7">
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CHZ0DE48N"></script>
         <script>
@@ -73,27 +73,29 @@
         <main>
             <section class="main-content">
                 <div class="container-fluid">
-                    <div class="row portrait-position">
+                    <div class="row pad"><!--<div class="row portrait-position">-->
                         <div class="col-md-1"></div>
-                        <div class="col-sm-6">
-                            <h2 class="intro-heading">Hi! My name is Rebecca Magar.</h2>
-                            <p>I'm a designer and front-end developer who's been creating meaningful experiences through design and code for over 16 years. I am in the process of completing my Google UX Certification, and I'm enthusiastic about advancing my design skills to elevate user experiences even further!</p>
-                            <p>I currently work at PNY Technologies where I design digital products for PNY and NVIDIA brands while nurturing our team of junior designers and developers. When I'm not busy at work, you can catch me jamming on my drums and peddling my art.</p>
+                        <div class="col-sm-7 pad-bottom" style="padding-left: 1.5rem; padding-right: 1.5rem;">
+                            <h2 class="intro-heading" style="padding-top: 0;">Hi! My name is Rebecca Magar.</h2>
+                            <p>I'm a designer and front-end developer who's been creating meaningful experiences through design and code for over 16 years. I am currently the Design Manager at PNY Technologies where I create digital products and graphics for the PNY and NVIDIA partner brands while nurturing our team of junior designers and developers. I love tackling design and development projects with a focus on collaboration, creativity, and practical solutions that meet both user needs and business goals. When I'm not busy at work, you can catch me jamming on my drums and peddling my art.</p>
                             <a class="btn primary" href="/about/">More About Me</a>
                         </div>
-                        <div class="col-sm-4">
-                            <img width="378" height="1046" src="/assets/images/rebecca-magar-portrait-halftone.webp" alt="Rebecca Magar - UI/Web Designer and Front-End Developer">
+                        <div class="col-sm-3 centered pad-bottom">
+                            <figure class="bio">
+                                <img src="/assets/images/rebecca-magar-portrait.webp" alt="Rebecca Magar Portrait">
+                            </figure>
+                            <!--<img width="378" height="1046" src="/assets/images/rebecca-magar-portrait-halftone.webp" alt="Rebecca Magar - UI/Web Designer and Front-End Developer">-->
                         </div>
                         <div class="col-md-1"></div>
                     </div>
                     <!-- Sample Project -->
-                    <div class="row">
+                    <div class="row pad">
                         <div class="col-md-1"></div>
                         <div class="col-md-10">
                             <a href="/sample-project/" class="portfolio-banner">
                                 <span class="image-overlay"></span>
                                 <figure itemscope itemtype="https://schema.org/VisualArtwork">
-                                    <img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-with-40-series-gpu.webp" srcset="/assets/images/sample-project/velocity-x-app-with-40-series-gpu_400.webp 400w, /assets/images/sample-project/velocity-x-app-with-40-series-gpu_800.webp 800w, /assets/images/sample-project/velocity-x-app-with-40-series-gpu.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Velocity-X Application - UI Design" itemprop="image">
+                                    <img width="1200" height="675" src="/assets/images/sample-project/velocity-x-app-screen-colorways.webp" alt="VelocityX Application - Desktop Background Variations">
                                     <figcaption>View a Sample Project</figcaption>
                                 </figure>
                             </a>
@@ -123,10 +125,12 @@
                 </p>
                 <p><a href="https://github.com/wailingwizard/rebecca-magar" target="_blank">Explore This Website's Code on GitHub</a></p>
             </div>
+            <button id="back-to-top" class="back-to-top" aria-label="Back to Top">↑</button>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script>window.jQuery || document.write('/assets/js/jquery.min.js')</script>
         <script src="/assets/js/hero.min.js"></script>
         <script src="/app.js"></script>
+        <script src="/assets/js/script.min.js"></script>
     </body>
 </html>

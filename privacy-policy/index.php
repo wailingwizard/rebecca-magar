@@ -102,61 +102,65 @@
                             <p>Many of the cookies I use are only set if you are logging into the site (so you don't have to log in every time, for example), while others are set whenever you visit my website, irrespective of whether you have an account.</p>
                             <h4>Types of Cookies</h4>
                             <p>The table below explains the types of cookies I use on my website and why I use them.</p>
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <th scope="col"><strong>Category of Cookies</strong></th>
-                                        <th scope="col"><strong>Why I Use These Cookies</strong></th>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Strictly Necessary</strong></td>
-                                        <td>These cookies are essential for my website to perform basic functions. These include those required to allow users to authenticate.</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Security</strong></td>
-                                        <td>I use these cookies to help identify and prevent potential security risks.</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Analytics and Performance</strong></td>
-                                        <td>Performance cookies collect information on how users interact with my website, including what pages are visited most, as well as other analytical data. I use these details to improve how my website functions and to understand how users interact with it.</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Third-Party</strong></td>
-                                        <td>Third-party applications and services may store cookies to enhance the experience for website visitors. These include social media platforms such as Facebook and Twitter (through the use of sharing buttons), or embedded content from Youtube and Vimeo. As a result, cookies may be set by these third parties, and used by them to track your online activity. I have no direct control over the information that is collected by these cookies.</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div style="overflow: auto; max-width: 100%;">
+                                <table style="min-width: 500px;">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="col"><strong>Category of Cookies</strong></th>
+                                            <th scope="col"><strong>Why I Use These Cookies</strong></th>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Strictly Necessary</strong></td>
+                                            <td>These cookies are essential for my website to perform basic functions. These include those required to allow users to authenticate.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Security</strong></td>
+                                            <td>I use these cookies to help identify and prevent potential security risks.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Analytics and Performance</strong></td>
+                                            <td>Performance cookies collect information on how users interact with my website, including what pages are visited most, as well as other analytical data. I use these details to improve how my website functions and to understand how users interact with it.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Third-Party</strong></td>
+                                            <td>Third-party applications and services may store cookies to enhance the experience for website visitors. These include social media platforms such as Facebook and Twitter (through the use of sharing buttons), or embedded content from Youtube and Vimeo. As a result, cookies may be set by these third parties, and used by them to track your online activity. I have no direct control over the information that is collected by these cookies.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                             <h4>Cookies I Use</h4>
-                            <table>
-                            <thead>
-                                <tr>
-                                    <th scope="col">Cookie</th>
-                                    <th scope="col">Type</th>
-                                    <th scope="col">Duration</th>
-                                    <th scope="col">Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>PHPSESSID</td>
-                                        <td>Functional</td>
-                                        <td>Until Session Ends</td>
-                                        <td>Used to establish a user session and to pass state data via a temporary cookie, which is commonly referred to as a session cookie. The PHPSESSID cookie has no timed expiry, it disappears when the client is closed.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>_ga</td>
-                                        <td>Analytics and Performance</td>
-                                        <td>2 Years</td>
-                                        <td>Google Analytics cookie. Used to distinguish users.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>_ga_[ID]</td>
-                                        <td>Analytics and Performance</td>
-                                        <td>1 Minute</td>
-                                        <td>Google Analytics cookie. Used to distinguish user sessions.</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div style="overflow: auto; max-width: 100%;">
+                                <table style="min-width: 500px;">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Cookie</th>
+                                            <th scope="col">Type</th>
+                                            <th scope="col">Duration</th>
+                                            <th scope="col">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>PHPSESSID</td>
+                                            <td>Functional</td>
+                                            <td>Until Session Ends</td>
+                                            <td>Used to establish a user session and to pass state data via a temporary cookie, which is commonly referred to as a session cookie. The PHPSESSID cookie has no timed expiry, it disappears when the client is closed.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>_ga</td>
+                                            <td>Analytics and Performance</td>
+                                            <td>2 Years</td>
+                                            <td>Google Analytics cookie. Used to distinguish users.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>_ga_[ID]</td>
+                                            <td>Analytics and Performance</td>
+                                            <td>1 Minute</td>
+                                            <td>Google Analytics cookie. Used to distinguish user sessions.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                             <h4>Controlling Cookies</h4>
                             <p>Visitors may wish to restrict the use of cookies or completely prevent them from being set. Most browsers provide for ways to control cookie behavior such as the length of time they are stored – either through built-in functionality or by utilizing third party plugins. If you disable cookies, please be aware that some of the features of my website may not function correctly.</p>
                             <p>To find out more on how to manage and delete cookies, visit <a href="https://aboutcookies.org" target="_blank">aboutcookies.org</a>. For more details on your choices regarding use of your web browsing activity for interest-based advertising visit <a href="https://youronlinechoices.eu" target="_blank">youronlinechoices.eu</a> (EU based) or <a href="https://optout.aboutads.info" target="_blank">optout.aboutads.info</a> (US based). On a mobile device, you may also be to adjust your settings to limit ad tracking.</p>

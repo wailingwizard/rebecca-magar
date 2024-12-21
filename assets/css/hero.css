@@ -274,6 +274,11 @@
         font-size: 14em;
     }
 }
+@media (orientation: landscape) and (min-height: 60rem) {
+    .list {
+        font-size: 22em;
+    }
+}
 @media (orientation: landscape) and (max-height: 44.938rem) {
     .list {
         font-size: 25vh;

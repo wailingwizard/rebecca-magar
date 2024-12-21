@@ -34,10 +34,10 @@
             <section class="main-content">
                 <div class="container-fluid">
                     <div class="row nopad">
-                        <div class="col-md-12 nopad centered">
-                            <figure class="image-banner">    
+                        <div class="col-md-12 nopad centered" style="aspect-ratio: 16/9; background-image: url('/assets/images/design-makes-me-happy.webp'); background-position: bottom center; background-repeat: no-repeat; background-size: contain; will-change: transform;">
+                            <!--<figure class="image-banner">    
                                 <img width="1200" height="675" src="/assets/images/design-makes-me-happy.webp" srcset="/assets/images/design-makes-me-happy_400.webp 400w,/assets/images/design-makes-me-happy_800.webp 800w,/assets/images/design-makes-me-happy.webp 1200w" sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px" alt="Design Makes Me Happy - Graphic by Rebecca Magar" class="border-none">
-                            </figure>
+                            </figure>-->
                         </div>
                     </div>
                     <div class="row border-ends pad">
@@ -49,7 +49,7 @@
                         </div>
                         <div class="col-sm-8">
                             <h2>Making users smile, one click at a time.</h2>
-                            <p>As a UI/UX designer and front-end developer, I aim to create seamless user experiences that are intuitive, memorable, and fun! To me, design isn't just about aesthetics - it's also about developing a functional and effective product and delighting users.</p>
+                            <p>As a designer and front-end developer, I aim to create seamless user experiences that are intuitive, memorable, and fun! To me, design isn't just about aesthetics - it's also about developing a functional and effective product and delighting users.</p>
                             <p class="nopad">My years of experience with graphic design, web design, and front-end development have helped me recognize and understand the obstacles that can prevent creative solutions from achieving company goals and solving user problems. I approach design and development projects with a special focus on solving technical, budgetary, usability, and design challenges through collaboration and critical thinking.</p>
                         </div>
                         <div class="col-sm-1"></div>

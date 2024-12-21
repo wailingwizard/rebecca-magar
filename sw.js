@@ -1,15 +1,16 @@
 //-----------------------------------------
 // Service Worker
 //
-// * Offline first
+// * Offline first with cache update
 // * Clears old cache on version change
 //
 //-----------------------------------------
 
 // Init cache name/version
-const cacheName = 'v2.4';
+const cacheName = 'v2.6';
+const dynamicCacheName = 'dynamic-v2.6';
 
-// which pages/assets do you want to cache?
+// Define pages/assets to pre-cache
 const cacheAssets = [
   'index.php',
   'about/index.php',
@@ -28,9 +29,6 @@ const cacheAssets = [
   'assets/js/jquery-rebox.min.js',
   'assets/js/jquery.min.js',
   'assets/js/script.min.js',
-  'assets/images/design-makes-me-happy_400.webp',
-  'assets/images/design-makes-me-happy_800.webp',
-  'assets/images/design-makes-me-happy.webp',
   'assets/images/address-icon-2x.png',
   'assets/images/email-icon-2x.png',
   'assets/images/link-icon-2x.png',
@@ -45,147 +43,67 @@ const cacheAssets = [
   'assets/images/favicons/android-icon-96x96.png',
   'assets/images/favicons/android-icon-144x144.png',
   'assets/images/favicons/android-icon-192x192.png',
-  'assets/images/favicons/android-icon-384x384.png',
-  'assets/images/favicons/apple-icon-57x57.png',
-  'assets/images/favicons/apple-icon-60x60.png',
-  'assets/images/favicons/apple-icon-72x72.png',
-  'assets/images/favicons/apple-icon-76x76.png',
-  'assets/images/favicons/apple-icon-114x114.png',
-  'assets/images/favicons/apple-icon-120x120.png',
-  'assets/images/favicons/apple-icon-144x144.png',
-  'assets/images/favicons/apple-icon-152x152.png',
-  'assets/images/favicons/apple-icon-180x180.png',
-  'assets/images/favicons/apple-icon-precomposed.png',
   'assets/images/favicons/apple-icon.png',
-  'assets/images/favicons/apple-touch-icon.png',
-  'assets/images/favicons/favicon-16x16.png',
-  'assets/images/favicons/favicon-32x32.png',
-  'assets/images/favicons/favicon-96x96.png',
-  'assets/images/favicons/favicon.ico',
-  'assets/images/favicons/ms-icon-70x70.png',
-  'assets/images/favicons/ms-icon-144x144.png',
-  'assets/images/favicons/ms-icon-150x150.png',
-  'assets/images/favicons/safari-pinned-tab.svg',
-  'assets/images/favicons/site-icon-512x512.png',
-  'assets/images/og-images/partners-and-harrison-facebook-og.jpg',
-  'assets/images/og-images/rebecca-magar-og.jpg',
-  'assets/images/sample-project/partners-and-harrison-banner_400.webp',
-  'assets/images/sample-project/partners-and-harrison-banner_800.webp',
-  'assets/images/sample-project/partners-and-harrison-banner.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-email-poster.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-email-template-mobile-mock_400.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-email-template-mobile-mock_800.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-email-template-mobile-mock.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-email-template-mock_400.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-email-template-mock_800.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-email-template-mock.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-landing-page-poster.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-1_400.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-1_800.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-1.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-2_400.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-2_800.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-mock-2.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-1_400.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-1_800.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-1.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-2_400.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-2_800.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-monitor-mock-2.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-desktop-poster.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-mobile-mock_400.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-mobile-mock_800.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-mobile-mock.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-website-mobile-poster.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-desktop-monitor-mock_400.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-desktop-monitor-mock_800.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-desktop-monitor-mock.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-mobile-mock_400.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-mobile-mock_800.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-landing-page-mobile-mock.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-1_400.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-1_800.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-1.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-2_400.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-2_800.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-2.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-3_400.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-3_800.webp',
-  'assets/images/sample-project/partners-and-harrison-rebrand-whitepaper-mock-3.webp',
-  'assets/images/ui-elements/arrow-collapse.svg',
-  'assets/images/ui-elements/arrow-expand.svg',
-  'assets/images/ui-elements/button-arrow-back.svg',
-  'assets/images/ui-elements/button-arrow.svg',
-  'assets/images/ui-elements/close-icon.svg',
-  'assets/images/ui-elements/happy-face-dark.svg',
-  'assets/images/ui-elements/logo-light.svg',
   'assets/images/ui-elements/logo.svg',
-  'assets/images/ui-elements/open-icon.svg',
-  'assets/images/ui-elements/up.svg',
-]
+  // Add more critical assets as needed
+];
 
-// Install service worker
+// Install Service Worker
 self.addEventListener('install', (e) => {
   console.log('Service Worker: Installed');
   e.waitUntil(
-    caches
-      .open(cacheName)
-      .then(cache => {
-        console.log('Service Worker: Caching Files');
-        cache.addAll(cacheAssets);
-      })
-      .then(() => self.skipWaiting())
+    caches.open(cacheName).then(cache => {
+      console.log('Service Worker: Caching Files');
+      return cache.addAll(cacheAssets).catch(err => {
+        console.error('Caching failed', err);
+      });
+    }).then(() => self.skipWaiting())
   );
 });
 
-
-// Activate the service worker
+// Activate the Service Worker
 self.addEventListener('activate', (e) => {
   console.log('Service Worker: Activated');
-
-  // Remove old caches
   e.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
-        // look at all the cacheNames
         cacheNames.map(cache => {
-          // if the current cache !== cacheName then delete it
-          if (cache !== cacheName) {
-            console.log('Service Worker: Clearing Old Cache');
+          if (cache !== cacheName && cache !== dynamicCacheName) {
+            console.log('Service Worker: Clearing Old Cache', cache);
             return caches.delete(cache);
           }
         })
-      )
-    })
+      );
+    }).then(() => self.clients.claim())
   );
-
 });
 
-
-
-// listen for fetch event (HTTP request)
+// Fetch Event
 self.addEventListener('fetch', (e) => {
-  console.log('Service Worker: Fetching');
-
-  // Offline backup
-  // e.respondWith(
-  //   // if the user is online, perform a regular HTTP request
-  //   fetch(e.request)
-  //   // if the HTTP request fails (offline) then serve the assets requested from the cache
-  //   .catch(() => caches.match(e.request))
-  // )
-
-  // Offline first
+  console.log('Service Worker: Fetching', e.request.url);
   e.respondWith(
-    // are the files requested in the cache already?
     caches.match(e.request).then(cachedResponse => {
-      // if yes, then serve files from cache
       if (cachedResponse) {
-        console.log('Found in cache!');
+        console.log('Serving from cache:', e.request.url);
+        // Optionally, fetch in background to update the cache
+        fetch(e.request).then(networkResponse => {
+          caches.open(dynamicCacheName).then(cache => {
+            cache.put(e.request, networkResponse.clone());
+          });
+        }).catch(err => console.error('Network fetch failed', err));
         return cachedResponse;
       }
-      // else do an HTTP request to the server
-      return fetch(e.request);
+      // Fetch from network if not in cache
+      return fetch(e.request).then(networkResponse => {
+        // Add to dynamic cache for later use
+        return caches.open(dynamicCacheName).then(cache => {
+          cache.put(e.request, networkResponse.clone());
+          return networkResponse;
+        });
+      }).catch(() => {
+        // Offline fallback
+        return caches.match('/offline.html');
+      });
     })
-  )
+  );
 });

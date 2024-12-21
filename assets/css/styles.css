@@ -1842,7 +1842,8 @@ figure.bio {
   top: -75px;
 }
 .search-wrapper .search-bar {
-  width: 396px;
+  width: 100%;
+  max-width: 396px;
   margin: 0 auto;
   position: relative;
 }
@@ -1854,11 +1855,15 @@ figure.bio {
 }
 .search-wrapper input {
   padding: 14px 15px 15px 50px;
-  width: 100%;
+  width: 99%;
+  max-width: 99%;
   display: inline-block;
   border-radius: 100px;
   box-sizing: border-box;
   margin: 0 auto;
+}
+.search-wrapper .search-bar {
+  position: relative;
 }
 .search-wrapper .search-bar::before {
   content: url('/assets/images/spyglass.svg');
@@ -2392,7 +2397,7 @@ figure.bio {
 /* -------- FOOTER -------- */
 footer {
   position: relative;
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 4em 1.5rem;
   z-index: 10;
 }
 .smile {
@@ -2413,6 +2418,31 @@ footer .copyright p span {
   display: block;
   padding: 0.938rem 0.313rem;
   border-right: 0 none;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 0.938rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  background-color: #181507;
+  color: #fff;
+  text-align: center;
+  line-height: 2.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: none; /* Hidden initially */
+  z-index: 1000; /* Ensure it stays above other elements */
+  border: none; /* Remove default button border */
+  transition: opacity 0.3s, transform 0.3s; /* Smooth fade-in/out and animation */
+}
+.back-to-top:hover,
+.back-to-top:focus {
+  background-color: #181507;
+  transform: scale(1.1); /* Slightly enlarge on hover or focus */
+  outline: none; /* Remove focus outline for a cleaner look */
 }
 @media screen and (min-width: 64rem) {
   footer .copyright p {
